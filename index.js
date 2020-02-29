@@ -160,6 +160,7 @@ const test = async () => {
                               (time >= 35 && time <= 45) ||
                               (time >= 80 && time <= 90)
                             ) {
+                              // event that is of type GOAL to be saved in DB
                               console.log(e);
                               console.log(
                                 chalk.bgCyan(
@@ -180,10 +181,10 @@ const test = async () => {
                   }
                 }
 
-                await page.screenshot({
-                  path: `h2h-${matchId}.png`,
-                  fullPage: true
-                });
+                // await page.screenshot({
+                //   path: `h2h-${matchId}.png`,
+                //   fullPage: true
+                // });
               })
               .catch(e => console.error(e.message));
           }
@@ -211,4 +212,45 @@ const test = async () => {
   }
 };
 
+// STARTING ANALISING -> NEW ENTRY IN DB
+const analisis = {
+  date: "",
+  id: "",
+  scheduledEvents: [
+    {
+      title: "Team - Team",
+      date: "",
+      team1: "",
+      team2: "",
+      liveScoreId: "",
+      matchDetailsLink: "",
+      historyEvents: [
+        {
+          title: "Team - Team",
+          date: "",
+          team1: "",
+          team2: "",
+          liveScoreId: "",
+          matchDetailsLink: "",
+          goals: [
+            // all goals
+            {
+              minute: "",
+              wasScored: true,
+              who: ""
+            }
+          ],
+          goalsAtRoundsEnd: [
+            // only goals scored in the last 10 minutes of round
+            {
+              minute: "",
+              wasScored: true,
+              who: ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
 test();
