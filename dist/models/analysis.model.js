@@ -33,7 +33,7 @@ const historyEvent = new mongoose_1.Schema({
     },
     goals: [goal],
     goalsAtRoundsEnd: [goal]
-}, { timestamps: true });
+});
 const scheduledEvent = new mongoose_1.Schema({
     title: {
         type: String,
@@ -60,7 +60,7 @@ const scheduledEvent = new mongoose_1.Schema({
         required: true
     },
     historyEvents: [historyEvent]
-}, { timestamps: true });
+});
 const AnalysisSchema = new mongoose_1.Schema({
     scheduledEvents: [scheduledEvent]
 }, { timestamps: true });

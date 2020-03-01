@@ -261,8 +261,6 @@ export const analizeMatches = async (
                           analysisToBeUpdated.scheduledEvents.map(
                             async (event: SESchema) => {
                               if (event.fsId === idClosure) {
-                                const prevHistoryMatches = event.historyEvents;
-
                                 const goals = await events.filter(
                                   (data: any) => data.wasScored
                                 );

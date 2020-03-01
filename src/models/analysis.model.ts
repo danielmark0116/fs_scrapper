@@ -40,68 +40,62 @@ const goal: Schema = new Schema({
   who: String
 });
 
-const historyEvent: Schema = new Schema(
-  {
-    title: {
-      type: String,
-      required: true
-    },
-    date: {
-      type: String,
-      default: ""
-    },
-    team1: {
-      type: String,
-      required: true
-    },
-    team2: {
-      type: String,
-      required: true
-    },
-    fsId: {
-      type: String,
-      required: true
-    },
-    matchDetailsLink: {
-      type: String,
-      required: true
-    },
-    goals: [goal],
-    goalsAtRoundsEnd: [goal]
+const historyEvent: Schema = new Schema({
+  title: {
+    type: String,
+    required: true
   },
-  { timestamps: true }
-);
+  date: {
+    type: String,
+    default: ""
+  },
+  team1: {
+    type: String,
+    required: true
+  },
+  team2: {
+    type: String,
+    required: true
+  },
+  fsId: {
+    type: String,
+    required: true
+  },
+  matchDetailsLink: {
+    type: String,
+    required: true
+  },
+  goals: [goal],
+  goalsAtRoundsEnd: [goal]
+});
 
-const scheduledEvent: Schema = new Schema(
-  {
-    title: {
-      type: String,
-      required: true
-    },
-    date: {
-      type: String,
-      default: ""
-    },
-    team1: {
-      type: String,
-      required: true
-    },
-    team2: {
-      type: String,
-      required: true
-    },
-    fsId: {
-      type: String,
-      required: true
-    },
-    matchDetailsLink: {
-      type: String,
-      required: true
-    },
-    historyEvents: [historyEvent]
+const scheduledEvent: Schema = new Schema({
+  title: {
+    type: String,
+    required: true
   },
-  { timestamps: true }
-);
+  date: {
+    type: String,
+    default: ""
+  },
+  team1: {
+    type: String,
+    required: true
+  },
+  team2: {
+    type: String,
+    required: true
+  },
+  fsId: {
+    type: String,
+    required: true
+  },
+  matchDetailsLink: {
+    type: String,
+    required: true
+  },
+  historyEvents: [historyEvent]
+});
 
 const AnalysisSchema: Schema = new Schema(
   {

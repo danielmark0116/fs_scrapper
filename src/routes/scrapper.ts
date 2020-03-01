@@ -1,21 +1,10 @@
 import * as express from "express";
-import { analizeMatches } from "../services/scrapper";
-import { Analysis, ASchema } from "../models/analysis.model";
+import { initializeAnalysis } from "../services/test";
 const router: express.Router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
-    const newAnalysis = new Analysis({
-      scheduledEvents: []
-    });
-
-    const savedAnalysis: ASchema = await newAnalysis.save();
-
-    console.log("saved new analysis");
-
-    const analysisId = savedAnalysis._id;
-
-    analizeMatches(2, 5, analysisId);
+    initializeAnalysis(10, 4);
     res.json({
       msg: "Scrapper route"
     });

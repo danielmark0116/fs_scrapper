@@ -160,7 +160,6 @@ exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6
                                             const matchDate = await getMatchDate(historyMatchPage);
                                             analysisToBeUpdated.scheduledEvents.map(async (event) => {
                                                 if (event.fsId === idClosure) {
-                                                    const prevHistoryMatches = event.historyEvents;
                                                     const goals = await events.filter((data) => data.wasScored);
                                                     const goalsAtRoundsEnd = await goals.filter((goal) => {
                                                         const time = parseInt(goal.minute.split("'")[0].split("+")[0]);
