@@ -16,12 +16,14 @@ const getMatchDate = async (page) => {
 };
 const getTeams = async (page) => {
     try {
+        await page.waitForSelector(".tname-home");
+        await page.waitForSelector(".tname-away");
         const team1 = await (await page.$(".tname-home a")).getProperty("innerText");
         const team2 = await (await page.$(".tname-away a")).getProperty("innerText");
         const team1Name = await team1.jsonValue();
         const team2Name = await team2.jsonValue();
         if (!team1Name || !team2Name) {
-            throw new Error("custom error");
+            throw new Error("Error from getNames");
         }
         return [`${team1Name}`, `${team2Name}`];
     }
@@ -142,6 +144,7 @@ const analise = async (SELinks, historyQuantity) => {
             await page.goto(scheduledEventLink);
             console.log(scheduledEventLink);
             await page.waitForSelector("#a-match-head-2-head");
+            await page.waitForSelector("#tab-h2h-overall");
             const h2hQuantity = (await page.$$("table.h2h_mutual tr.highlight"))
                 .length;
             let historyDataIds = [];
@@ -151,11 +154,13 @@ const analise = async (SELinks, historyQuantity) => {
                     hidden: false,
                     timeout: 10000
                 });
-                historyDataIds = await page.$$eval("table.h2h_mutual tr.highlight", (links) => links.map((link) => link
+                const historyDataIdsWithDuplicates = await page.$$eval("table.h2h_mutual tr.highlight", (links) => links.map((link) => link
                     .getAttribute("onclick")
                     .split("detail_open('g_0_")[1]
                     .split("', null")[0]));
+                historyDataIds = [...new Set(historyDataIdsWithDuplicates)];
             }
+            // console.log(historyDataIds);
             const [team1Name, team2Name] = await getTeams(page);
             const seDate = await getMatchDate(page);
             console.log(chalk.bgYellow.blue(`FOR: ${team1Name} - ${team2Name} || ${seDate}`));

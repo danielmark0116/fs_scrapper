@@ -21,6 +21,9 @@ const getMatchDate = async (page: pt.Page) => {
 
 const getTeams = async (page: pt.Page) => {
   try {
+    await page.waitForSelector(".tname-home");
+    await page.waitForSelector(".tname-away");
+
     const team1 = await (await page.$(".tname-home a")).getProperty(
       "innerText"
     );
@@ -33,7 +36,7 @@ const getTeams = async (page: pt.Page) => {
     const team2Name = await team2.jsonValue();
 
     if (!team1Name || !team2Name) {
-      throw new Error("custom error");
+      throw new Error("Error from getNames");
     }
 
     return [`${team1Name}`, `${team2Name}`];
@@ -192,6 +195,7 @@ const analise = async (
       console.log(scheduledEventLink);
 
       await page.waitForSelector("#a-match-head-2-head");
+      await page.waitForSelector("#tab-h2h-overall");
 
       const h2hQuantity = (await page.$$("table.h2h_mutual tr.highlight"))
         .length;
@@ -205,7 +209,7 @@ const analise = async (
           timeout: 10000
         });
 
-        historyDataIds = await page.$$eval(
+        const historyDataIdsWithDuplicates = await page.$$eval(
           "table.h2h_mutual tr.highlight",
           (links: any) =>
             links.map(
@@ -216,7 +220,11 @@ const analise = async (
                   .split("', null")[0]
             )
         );
+
+        historyDataIds = [...new Set(historyDataIdsWithDuplicates)];
       }
+
+      // console.log(historyDataIds);
 
       const [team1Name, team2Name] = await getTeams(page);
 
