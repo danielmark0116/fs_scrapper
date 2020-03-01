@@ -11,6 +11,10 @@ const historyEvent = new mongoose_1.Schema({
         type: String,
         required: true
     },
+    date: {
+        type: String,
+        default: ""
+    },
     team1: {
         type: String,
         required: true
@@ -34,6 +38,10 @@ const scheduledEvent = new mongoose_1.Schema({
     title: {
         type: String,
         required: true
+    },
+    date: {
+        type: String,
+        default: ""
     },
     team1: {
         type: String,

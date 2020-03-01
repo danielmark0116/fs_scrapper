@@ -10,14 +10,14 @@ const getTeams = async (page) => {
     const team2Name = await team2.jsonValue();
     return [team1Name, team2Name];
 };
-exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6) => {
+const getMatchDate = async (page) => {
+    const time = await (await page.$("#utime")).getProperty("innerText");
+    const matchTime = await time.jsonValue();
+    return `${matchTime || ""}`;
+};
+exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6, analysisId) => {
     console.log("Initialized scrapping");
     try {
-        const newAnalysis = new analysis_model_1.Analysis({
-            scheduledEvents: []
-        });
-        const savedAnalysis = await newAnalysis.save();
-        const analysisId = savedAnalysis._id;
         const browser = await pt.launch();
         const page = await browser.newPage();
         browser.on("targetcreated", async (pt) => {
@@ -53,17 +53,28 @@ exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6
                                 const team1Name = await team1.jsonValue();
                                 const team2Name = await team2.jsonValue();
                                 const analysisToBeUpdated = await analysis_model_1.Analysis.findById(analysisId);
-                                analysisToBeUpdated.scheduledEvents = [
-                                    ...analysisToBeUpdated.scheduledEvents,
-                                    {
-                                        fsId: linkId,
-                                        historyEvents: [],
-                                        matchDetailsLink,
-                                        team1: team1Name,
-                                        team2: team2Name,
-                                        title: `${team1Name} - ${team2Name}`
-                                    }
-                                ];
+                                const scheduledEventDate = await getMatchDate(page);
+                                //   analysisToBeUpdated.scheduledEvents = [
+                                //     ...analysisToBeUpdated.scheduledEvents,
+                                //     {
+                                //       fsId: linkId,
+                                //       historyEvents: [],
+                                //       matchDetailsLink,
+                                //       team1: team1Name,
+                                //       team2: team2Name,
+                                //       title: `${team1Name} - ${team2Name}`,
+                                //       date: scheduledEventDate
+                                //     }
+                                //   ];
+                                analysisToBeUpdated.scheduledEvents.push({
+                                    fsId: linkId,
+                                    historyEvents: [],
+                                    matchDetailsLink,
+                                    team1: team1Name,
+                                    team2: team2Name,
+                                    title: `${team1Name} - ${team2Name}`,
+                                    date: scheduledEventDate
+                                });
                                 await analysisToBeUpdated.save();
                                 console.log(`match between ${team1Name} - ${team2Name}`);
                                 const givenMatchHistoryIds = await page.$$eval("table.h2h_mutual tr.highlight", (links) => links.map((link) => link
@@ -133,7 +144,8 @@ exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6
                                                         console.log(chalk.bgCyan("This history match was match for bet"));
                                                         historyMatchPage
                                                             .screenshot({
-                                                            path: `./historyMatches/${team1}-${team2}__${i}.png`,
+                                                            // path: `./historyMatches/${team1}-${team2}__${i}.png`,
+                                                            path: "./historyMatches/lastIndex.png",
                                                             fullPage: true
                                                         })
                                                             .then(() => {
@@ -145,11 +157,12 @@ exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6
                                                 }
                                             }
                                             const analysisToBeUpdated = await analysis_model_1.Analysis.findById(analysisId);
-                                            analysisToBeUpdated.scheduledEvents.map((event) => {
+                                            const matchDate = await getMatchDate(historyMatchPage);
+                                            analysisToBeUpdated.scheduledEvents.map(async (event) => {
                                                 if (event.fsId === idClosure) {
                                                     const prevHistoryMatches = event.historyEvents;
-                                                    const goals = events.filter((data) => data.wasScored);
-                                                    const goalsAtRoundsEnd = goals.filter((goal) => {
+                                                    const goals = await events.filter((data) => data.wasScored);
+                                                    const goalsAtRoundsEnd = await goals.filter((goal) => {
                                                         const time = parseInt(goal.minute.split("'")[0].split("+")[0]);
                                                         if ((time >= 35 && time <= 45) ||
                                                             (time >= 80 && time <= 90)) {
@@ -157,20 +170,18 @@ exports.analizeMatches = async (matchesToBePlayed = 10, historyMatchesNumber = 6
                                                         }
                                                         return false;
                                                     });
-                                                    event.historyEvents = [
-                                                        ...prevHistoryMatches,
-                                                        {
-                                                            fsId: historyMatchFsId,
-                                                            goals,
-                                                            goalsAtRoundsEnd,
-                                                            title: `${team1} - ${team2}`,
-                                                            team1,
-                                                            team2,
-                                                            matchDetailsLink: "https://flashscore.com/match/" +
-                                                                givenMatchHistoryIds[i] +
-                                                                "/#match-summary"
-                                                        }
-                                                    ];
+                                                    event.historyEvents.push({
+                                                        fsId: historyMatchFsId,
+                                                        goals,
+                                                        goalsAtRoundsEnd,
+                                                        title: `${team1} - ${team2}`,
+                                                        date: matchDate,
+                                                        team1,
+                                                        team2,
+                                                        matchDetailsLink: "https://flashscore.com/match/" +
+                                                            givenMatchHistoryIds[i] +
+                                                            "/#match-summary"
+                                                    });
                                                 }
                                             });
                                             await analysisToBeUpdated.save();

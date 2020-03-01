@@ -8,6 +8,7 @@ export interface GoalSchema {
 
 export interface HESchema {
   title: string;
+  date: string;
   team1: string;
   team2: string;
   fsId: string;
@@ -18,6 +19,7 @@ export interface HESchema {
 
 export interface SESchema {
   title: string;
+  date: string;
   team1: string;
   team2: string;
   fsId: string;
@@ -43,6 +45,10 @@ const historyEvent: Schema = new Schema(
     title: {
       type: String,
       required: true
+    },
+    date: {
+      type: String,
+      default: ""
     },
     team1: {
       type: String,
@@ -71,6 +77,10 @@ const scheduledEvent: Schema = new Schema(
     title: {
       type: String,
       required: true
+    },
+    date: {
+      type: String,
+      default: ""
     },
     team1: {
       type: String,

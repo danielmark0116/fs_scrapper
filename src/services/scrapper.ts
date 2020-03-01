@@ -19,20 +19,21 @@ const getTeams = async (page: Page) => {
   return [team1Name, team2Name];
 };
 
+const getMatchDate = async (page: Page) => {
+  const time = await (await page.$("#utime")).getProperty("innerText");
+
+  const matchTime = await time.jsonValue();
+
+  return `${matchTime || ""}`;
+};
+
 export const analizeMatches = async (
   matchesToBePlayed: number = 10,
-  historyMatchesNumber: number = 6
+  historyMatchesNumber: number = 6,
+  analysisId: string
 ) => {
   console.log("Initialized scrapping");
   try {
-    const newAnalysis = new Analysis({
-      scheduledEvents: []
-    });
-
-    const savedAnalysis: ASchema = await newAnalysis.save();
-
-    const analysisId = savedAnalysis._id;
-
     const browser: Browser = await pt.launch();
     const page: Page = await browser.newPage();
 
@@ -93,17 +94,30 @@ export const analizeMatches = async (
                     analysisId
                   );
 
-                  analysisToBeUpdated.scheduledEvents = [
-                    ...analysisToBeUpdated.scheduledEvents,
-                    {
-                      fsId: linkId,
-                      historyEvents: [],
-                      matchDetailsLink,
-                      team1: team1Name,
-                      team2: team2Name,
-                      title: `${team1Name} - ${team2Name}`
-                    }
-                  ];
+                  const scheduledEventDate = await getMatchDate(page);
+
+                  //   analysisToBeUpdated.scheduledEvents = [
+                  //     ...analysisToBeUpdated.scheduledEvents,
+                  //     {
+                  //       fsId: linkId,
+                  //       historyEvents: [],
+                  //       matchDetailsLink,
+                  //       team1: team1Name,
+                  //       team2: team2Name,
+                  //       title: `${team1Name} - ${team2Name}`,
+                  //       date: scheduledEventDate
+                  //     }
+                  //   ];
+
+                  analysisToBeUpdated.scheduledEvents.push({
+                    fsId: linkId,
+                    historyEvents: [],
+                    matchDetailsLink,
+                    team1: team1Name,
+                    team2: team2Name,
+                    title: `${team1Name} - ${team2Name}`,
+                    date: scheduledEventDate
+                  });
 
                   await analysisToBeUpdated.save();
 
@@ -223,7 +237,8 @@ export const analizeMatches = async (
                                 );
                                 historyMatchPage
                                   .screenshot({
-                                    path: `./historyMatches/${team1}-${team2}__${i}.png`,
+                                    // path: `./historyMatches/${team1}-${team2}__${i}.png`,
+                                    path: "./historyMatches/lastIndex.png",
                                     fullPage: true
                                   })
                                   .then(() => {
@@ -239,16 +254,20 @@ export const analizeMatches = async (
                             analysisId
                           );
 
+                          const matchDate = await getMatchDate(
+                            historyMatchPage
+                          );
+
                           analysisToBeUpdated.scheduledEvents.map(
-                            (event: SESchema) => {
+                            async (event: SESchema) => {
                               if (event.fsId === idClosure) {
                                 const prevHistoryMatches = event.historyEvents;
 
-                                const goals = events.filter(
+                                const goals = await events.filter(
                                   (data: any) => data.wasScored
                                 );
 
-                                const goalsAtRoundsEnd = goals.filter(
+                                const goalsAtRoundsEnd = await goals.filter(
                                   (goal: any) => {
                                     const time = parseInt(
                                       goal.minute.split("'")[0].split("+")[0]
@@ -263,21 +282,19 @@ export const analizeMatches = async (
                                   }
                                 );
 
-                                event.historyEvents = [
-                                  ...prevHistoryMatches,
-                                  {
-                                    fsId: historyMatchFsId,
-                                    goals,
-                                    goalsAtRoundsEnd,
-                                    title: `${team1} - ${team2}`,
-                                    team1,
-                                    team2,
-                                    matchDetailsLink:
-                                      "https://flashscore.com/match/" +
-                                      givenMatchHistoryIds[i] +
-                                      "/#match-summary"
-                                  }
-                                ];
+                                event.historyEvents.push({
+                                  fsId: historyMatchFsId,
+                                  goals,
+                                  goalsAtRoundsEnd,
+                                  title: `${team1} - ${team2}`,
+                                  date: matchDate,
+                                  team1,
+                                  team2,
+                                  matchDetailsLink:
+                                    "https://flashscore.com/match/" +
+                                    givenMatchHistoryIds[i] +
+                                    "/#match-summary"
+                                });
                               }
                             }
                           );
