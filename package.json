@@ -5,9 +5,10 @@
   "author": "Daniel Grychtol <grychtol.daniel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "tsc && concurrently \"tsc -w\" \"nodemon dist/index.js\""
   },
   "dependencies": {
+    "@types/puppeteer": "^2.0.1",
     "chalk": "^3.0.0",
     "concurrently": "^5.1.0",
     "puppeteer": "^2.1.1"

@@ -1,7 +1,8 @@
-const pt = require("puppeteer");
-const chalk = require("chalk");
+import * as pt from "puppeteer";
+import * as chalk from "chalk";
+import { Browser, Page } from "puppeteer";
 
-const getTeams = async page => {
+const getTeams = async (page: Page) => {
   const team1 = await (await page.$(".tname-home a")).getProperty("innerText");
 
   const team2 = await (await page.$(".tname-away a")).getProperty("innerText");
@@ -12,29 +13,37 @@ const getTeams = async page => {
   return [team1Name, team2Name];
 };
 
-// 35 - 45
-// 80 - 90
-
 const test = async () => {
   try {
-    const browser = await pt.launch();
-    const page = await browser.newPage();
+    const browser: Browser = await pt.launch();
+    const page: Page = await browser.newPage();
+
+    browser.on("targetcreated", async (pt: pt.Target) => {
+      const pagesCount = (await browser.pages()).length;
+      console.log(
+        chalk.greenBright("created new page, now there is: " + pagesCount)
+      );
+    });
+
     page.setDefaultNavigationTimeout(0);
+
     await page.goto("https://flashscore.com");
 
     const links = await page.$$(".event__match.event__match--scheduled");
 
-    await new Promise((resolve, reject) => {
-      links.forEach(async (url, i) => {
-        try {
-          if (i < 10) {
-            const matchId = await (await url.getProperty("id")).jsonValue();
+    links.forEach(async (url: any, i: number) => {
+      try {
+        if (i < 10) {
+          const matchId = await (await url.getProperty("id")).jsonValue();
 
-            const linkId = matchId.replace("g_1_", "");
+          const linkId = matchId.replace("g_1_", "");
 
+          console.log(chalk.bgGreen.red("handled link no: " + i));
+
+          await new Promise((res, rej) => {
             browser
               .newPage()
-              .then(async page => {
+              .then(async (page: any) => {
                 page.setDefaultNavigationTimeout(0);
                 await page.goto(
                   "https://flashscore.com/match/" + linkId + "#h2h;overall"
@@ -63,9 +72,9 @@ const test = async () => {
 
                 const givenMatchHistoryIds = await page.$$eval(
                   "table.h2h_mutual tr.highlight",
-                  links =>
+                  (links: any) =>
                     links.map(
-                      link =>
+                      (link: any) =>
                         link
                           .getAttribute("onclick")
                           .split("detail_open('g_0_")[1]
@@ -81,7 +90,7 @@ const test = async () => {
                     console.log(givenMatchHistoryIds[i]);
                     browser
                       .newPage()
-                      .then(async historyMatchPage => {
+                      .then(async (historyMatchPage: Page) => {
                         historyMatchPage.setDefaultTimeout(0);
                         historyMatchPage.goto(
                           "https://flashscore.com/match/" +
@@ -117,8 +126,8 @@ const test = async () => {
 
                         const events = await historyMatchPage.$$eval(
                           ".detailMS__incidentRow",
-                          all =>
-                            all.map(event => {
+                          (all: any) =>
+                            all.map((event: any) => {
                               if (
                                 event.getAttribute("class").includes("--empty")
                               ) {
@@ -148,12 +157,15 @@ const test = async () => {
                             })
                         );
 
-                        events.forEach(e => {
+                        for (let i = 0; i < events.length; i++) {
+                          const event = events[i];
+                          const lastItem = events.length - 1;
+
                           const time = parseInt(
-                            e.minute.split("'")[0].split("+")[0]
+                            event.minute.split("'")[0].split("+")[0]
                           );
 
-                          if (e.wasScored) {
+                          if (event.wasScored) {
                             // 35 - 45
                             // 80 - 90
                             if (
@@ -161,51 +173,47 @@ const test = async () => {
                               (time >= 80 && time <= 90)
                             ) {
                               // event that is of type GOAL to be saved in DB
-                              console.log(e);
+                              console.log(event);
                               console.log(
                                 chalk.bgCyan(
                                   "This history match was match for bet"
                                 )
                               );
-                              historyMatchPage.screenshot({
-                                path: `./historyMatches/${team1}-${team2}__${i}.png`,
-                                fullPage: true
-                              });
+                              historyMatchPage
+                                .screenshot({
+                                  path: `./historyMatches/${team1}-${team2}__${i}.png`,
+                                  fullPage: true
+                                })
+                                .then(() => {
+                                  historyMatchPage.close();
+                                })
+                                .catch(e => console.log(e.message));
+                              break;
                             }
                           }
-                        });
-
-                        // await historyMatchPage.close();
+                        }
                       })
-                      .catch(e => console.error(e.message));
+                      .catch((e: any) => console.error(e.message));
                   }
                 }
-
-                // await page.screenshot({
-                //   path: `h2h-${matchId}.png`,
-                //   fullPage: true
-                // });
+                res();
               })
-              .catch(e => console.error(e.message));
-          }
-
-          if (i === links.length - 1) {
-            resolve();
-          }
-        } catch (e) {
-          console.error(e);
+              .catch((e: any) => {
+                rej();
+                console.error(e.message);
+              });
+          });
         }
-      });
+      } catch (e) {
+        console.error(e);
+      }
     });
 
-    browser.on("targetdestroyed", async e => {
+    browser.on("targetdestroyed", async (e: any) => {
       const pages = await browser.pages();
       console.log(pages.length);
 
-      if (pages.length === 2) {
-        console.log("FINISHED RUNNIGN SCRAPING");
-        page.close();
-      }
+      console.log(chalk.bgRed("closed page after ss"));
     });
   } catch (e) {
     console.log(e);
@@ -253,4 +261,5 @@ const analisis = {
     }
   ]
 };
-test();
+
+// test();
