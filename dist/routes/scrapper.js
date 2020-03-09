@@ -5,7 +5,7 @@ const test_1 = require("../services/test");
 const router = express.Router();
 router.get("/", async (req, res) => {
     try {
-        test_1.initializeAnalysis(10, 4);
+        test_1.initializeAnalysis(30, 20);
         res.json({
             msg: "Scrapper route"
         });

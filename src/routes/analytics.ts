@@ -1,6 +1,7 @@
 import * as express from "express";
 import { Analysis } from "../models/analysis.model";
 const router: express.Router = express.Router();
+import * as fs from "fs";
 
 router.get("/", async (req, res) => {
   try {
@@ -9,6 +10,11 @@ router.get("/", async (req, res) => {
         createdAt: "desc"
       })
       .limit(1);
+
+    fs.writeFileSync("docs/analytics.txt", JSON.stringify(latestAnalytics));
+    fs.writeFileSync("analytics.txt", JSON.stringify(latestAnalytics));
+    fs.writeFileSync("analytics.json", JSON.stringify(latestAnalytics));
+
     res.json({
       msg: "Fetched anaytics",
       data: latestAnalytics

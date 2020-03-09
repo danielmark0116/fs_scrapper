@@ -5,7 +5,10 @@
   "author": "Daniel Grychtol <grychtol.daniel@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc && concurrently \"tsc -w\" \"nodemon dist/index.js\""
+    "dev": "tsc && concurrently \"tsc -w\" \"nodemon dist/index.js\"",
+    "client": "cd client && yarn start",
+    "copy": "rm -rf docs && mkdir docs && cp -r client/build/* docs",
+    "build-client": "cd client && yarn build && cd .. && yarn copy"
   },
   "dependencies": {
     "@types/express": "^4.17.2",

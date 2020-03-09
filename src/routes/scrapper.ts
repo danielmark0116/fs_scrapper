@@ -4,7 +4,7 @@ const router: express.Router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
-    initializeAnalysis(10, 4);
+    initializeAnalysis(30, 20);
     res.json({
       msg: "Scrapper route"
     });

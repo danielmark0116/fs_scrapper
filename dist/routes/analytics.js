@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
 const analysis_model_1 = require("../models/analysis.model");
 const router = express.Router();
+const fs = require("fs");
 router.get("/", async (req, res) => {
     try {
         const latestAnalytics = await analysis_model_1.Analysis.find()
@@ -10,6 +11,9 @@ router.get("/", async (req, res) => {
             createdAt: "desc"
         })
             .limit(1);
+        fs.writeFileSync("docs/analytics.txt", JSON.stringify(latestAnalytics));
+        fs.writeFileSync("analytics.txt", JSON.stringify(latestAnalytics));
+        fs.writeFileSync("analytics.json", JSON.stringify(latestAnalytics));
         res.json({
             msg: "Fetched anaytics",
             data: latestAnalytics

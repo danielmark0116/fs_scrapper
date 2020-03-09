@@ -175,9 +175,10 @@ const analise = async (
 
     console.log("saved new analisis with id: " + analysisId);
 
-    const browser: pt.Browser = await pt.launch();
+    let browser: pt.Browser = await pt.launch();
 
-    browser.on("disconnected", () => {
+    browser.on("disconnected", async () => {
+      browser = await pt.launch();
       console.log(chalk.green('"Closed browser for ANALYSE"'));
     });
 

@@ -130,8 +130,9 @@ const analise = async (SELinks, historyQuantity) => {
         const analysisId = newAnalysis._id;
         await newAnalysis.save();
         console.log("saved new analisis with id: " + analysisId);
-        const browser = await pt.launch();
-        browser.on("disconnected", () => {
+        let browser = await pt.launch();
+        browser.on("disconnected", async () => {
+            browser = await pt.launch();
             console.log(chalk.green('"Closed browser for ANALYSE"'));
         });
         for (let i in SELinks) {

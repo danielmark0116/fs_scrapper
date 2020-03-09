@@ -1,0 +1,5326 @@
+[
+  {
+    "_id": "5e66872566773b6a78b48d7a",
+    "scheduledEvents": [
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "28.01.2020 20:45",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d7d",
+                "minute": "12'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d7e",
+                "minute": "72'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d7f",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66874a66773b6a78b48d80",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66874a66773b6a78b48d7c",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "EDD0cOI3",
+            "matchDetailsLink": "https://flashscore.com/match/EDD0cOI3/#match-summary"
+          },
+          {
+            "date": "08.01.2020 21:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d82",
+                "minute": "28'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d83",
+                "minute": "74'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48d81",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "WlOeb43c",
+            "matchDetailsLink": "https://flashscore.com/match/WlOeb43c/#match-summary"
+          },
+          {
+            "date": "08.12.2019 15:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d85",
+                "minute": "21'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d86",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d87",
+                "minute": "45+2'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d88",
+                "minute": "49'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d89",
+                "minute": "75'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66874a66773b6a78b48d8a",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d8b",
+                "minute": "45+2'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66874a66773b6a78b48d84",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "thatKo7o",
+            "matchDetailsLink": "https://flashscore.com/match/thatKo7o/#match-summary"
+          },
+          {
+            "date": "16.01.2016 18:30",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d8d",
+                "minute": "28'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d8e",
+                "minute": "75'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48d8c",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "CMjrw7LC",
+            "matchDetailsLink": "https://flashscore.com/match/CMjrw7LC/#match-summary"
+          },
+          {
+            "date": "13.09.2015 17:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d90",
+                "minute": "39'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d91",
+                "minute": "63'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d92",
+                "minute": "72'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d93",
+                "minute": "82'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d94",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66874a66773b6a78b48d95",
+                "minute": "39'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d96",
+                "minute": "82'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d97",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66874a66773b6a78b48d8f",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "n5GdoO4h",
+            "matchDetailsLink": "https://flashscore.com/match/n5GdoO4h/#match-summary"
+          },
+          {
+            "date": "15.02.2015 13:30",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d99",
+                "minute": "68'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d9a",
+                "minute": "89'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d9b",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66874a66773b6a78b48d9c",
+                "minute": "89'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48d9d",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66874a66773b6a78b48d98",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "dzUvvcN7",
+            "matchDetailsLink": "https://flashscore.com/match/dzUvvcN7/#match-summary"
+          },
+          {
+            "date": "10.01.2015 16:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48d9f",
+                "minute": "45+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66874a66773b6a78b48da0",
+                "minute": "45+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66874a66773b6a78b48d9e",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "ManuyPIj",
+            "matchDetailsLink": "https://flashscore.com/match/ManuyPIj/#match-summary"
+          },
+          {
+            "date": "07.12.2014 17:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48da2",
+                "minute": "13'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48da3",
+                "minute": "17'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48da4",
+                "minute": "71'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48da1",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "hll16hd2",
+            "matchDetailsLink": "https://flashscore.com/match/hll16hd2/#match-summary"
+          },
+          {
+            "date": "26.09.2007 20:45",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48da5",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "K2JPoFRo",
+            "matchDetailsLink": "https://flashscore.com/match/K2JPoFRo/#match-summary"
+          },
+          {
+            "date": "24.10.2006 20:45",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48da6",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "E536bwJM",
+            "matchDetailsLink": "https://flashscore.com/match/E536bwJM/#match-summary"
+          },
+          {
+            "date": "31.01.2004 16:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48da8",
+                "minute": "50'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48da9",
+                "minute": "57'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48daa",
+                "minute": "60'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48dab",
+                "minute": "64'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48dac",
+                "minute": "68'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48da7",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "Q72AzN4l",
+            "matchDetailsLink": "https://flashscore.com/match/Q72AzN4l/#match-summary"
+          },
+          {
+            "date": "29.10.2003 20:45",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48dad",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "jPsNUIMh",
+            "matchDetailsLink": "https://flashscore.com/match/jPsNUIMh/#match-summary"
+          },
+          {
+            "date": "30.08.2003 16:00",
+            "goals": [
+              {
+                "_id": "5e66874a66773b6a78b48daf",
+                "minute": "8'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48db0",
+                "minute": "10'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48db1",
+                "minute": "16'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66874a66773b6a78b48db2",
+                "minute": "53'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48dae",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "rRVAOeVe",
+            "matchDetailsLink": "https://flashscore.com/match/rRVAOeVe/#match-summary"
+          },
+          {
+            "date": "20.04.2002 16:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db3",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "zLp5FEoi",
+            "matchDetailsLink": "https://flashscore.com/match/zLp5FEoi/#match-summary"
+          },
+          {
+            "date": "01.12.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db4",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "dGGkPiq0",
+            "matchDetailsLink": "https://flashscore.com/match/dGGkPiq0/#match-summary"
+          },
+          {
+            "date": "04.04.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db5",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "vskG41Fd",
+            "matchDetailsLink": "https://flashscore.com/match/vskG41Fd/#match-summary"
+          },
+          {
+            "date": "27.01.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db6",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "j3jo3GjO",
+            "matchDetailsLink": "https://flashscore.com/match/j3jo3GjO/#match-summary"
+          },
+          {
+            "date": "19.08.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db7",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "IDZ6yFrd",
+            "matchDetailsLink": "https://flashscore.com/match/IDZ6yFrd/#match-summary"
+          },
+          {
+            "date": "22.04.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db8",
+            "team1": "Aston Villa",
+            "team2": "Leicester",
+            "title": "Aston Villa - Leicester",
+            "fsId": "OlcQ1zXR",
+            "matchDetailsLink": "https://flashscore.com/match/OlcQ1zXR/#match-summary"
+          },
+          {
+            "date": "02.02.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66874a66773b6a78b48db9",
+            "team1": "Leicester",
+            "team2": "Aston Villa",
+            "title": "Leicester - Aston Villa",
+            "fsId": "pbVdUJDC",
+            "matchDetailsLink": "https://flashscore.com/match/pbVdUJDC/#match-summary"
+          }
+        ],
+        "_id": "5e66874a66773b6a78b48d7b",
+        "title": "Leicester - Aston Villa",
+        "team1": "Leicester",
+        "team2": "Aston Villa",
+        "fsId": "g_1_z7bKeorA",
+        "matchDetailsLink": "https://flashscore.com/match/z7bKeorA/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 23:00",
+        "historyEvents": [
+          {
+            "date": "25.11.2018 21:10",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dbc",
+                "minute": "12'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dbd",
+                "minute": "81'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66878666773b6a78b48dbe",
+                "minute": "81'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66878666773b6a78b48dbb",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "0hQ6N95h",
+            "matchDetailsLink": "https://flashscore.com/match/0hQ6N95h/#match-summary"
+          },
+          {
+            "date": "07.11.2017 01:05",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dc0",
+                "minute": "28'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dc1",
+                "minute": "68'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48dbf",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "Qw6SfVtg",
+            "matchDetailsLink": "https://flashscore.com/match/Qw6SfVtg/#match-summary"
+          },
+          {
+            "date": "22.04.2017 23:20",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dc3",
+                "minute": "13'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dc4",
+                "minute": "34'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dc5",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66878666773b6a78b48dc6",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66878666773b6a78b48dc2",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "IPER3wgq",
+            "matchDetailsLink": "https://flashscore.com/match/IPER3wgq/#match-summary"
+          },
+          {
+            "date": "29.03.2015 23:15",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dc8",
+                "minute": "11'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48dc7",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "vZFZoozD",
+            "matchDetailsLink": "https://flashscore.com/match/vZFZoozD/#match-summary"
+          },
+          {
+            "date": "16.06.2013 19:15",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dca",
+                "minute": "3'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dcb",
+                "minute": "25'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48dc9",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "xzVPrlis",
+            "matchDetailsLink": "https://flashscore.com/match/xzVPrlis/#match-summary"
+          },
+          {
+            "date": "02.12.2012 21:00",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dcd",
+                "minute": "48'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dce",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66878666773b6a78b48dcf",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66878666773b6a78b48dcc",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "6i8tl2C1",
+            "matchDetailsLink": "https://flashscore.com/match/6i8tl2C1/#match-summary"
+          },
+          {
+            "date": "17.03.2012 20:00",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dd1",
+                "minute": "18'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dd2",
+                "minute": "22'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dd3",
+                "minute": "33'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dd4",
+                "minute": "53'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dd5",
+                "minute": "64'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66878666773b6a78b48dd6",
+                "minute": "79'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48dd0",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "CbuKK2aI",
+            "matchDetailsLink": "https://flashscore.com/match/CbuKK2aI/#match-summary"
+          },
+          {
+            "date": "12.09.2011 01:15",
+            "goals": [
+              {
+                "_id": "5e66878666773b6a78b48dd8",
+                "minute": "88'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66878666773b6a78b48dd9",
+                "minute": "88'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66878666773b6a78b48dd7",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "SEelldq2",
+            "matchDetailsLink": "https://flashscore.com/match/SEelldq2/#match-summary"
+          },
+          {
+            "date": "12.04.2003 23:55",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48dda",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "2opRVA5Q",
+            "matchDetailsLink": "https://flashscore.com/match/2opRVA5Q/#match-summary"
+          },
+          {
+            "date": "21.09.2002 23:55",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48ddb",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "0zf5mg1E",
+            "matchDetailsLink": "https://flashscore.com/match/0zf5mg1E/#match-summary"
+          },
+          {
+            "date": "17.04.2002 23:55",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48ddc",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "2qRJYueB",
+            "matchDetailsLink": "https://flashscore.com/match/2qRJYueB/#match-summary"
+          },
+          {
+            "date": "16.11.2001 23:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48ddd",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "fD7vcCej",
+            "matchDetailsLink": "https://flashscore.com/match/fD7vcCej/#match-summary"
+          },
+          {
+            "date": "22.04.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48dde",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "OAXEbvw1",
+            "matchDetailsLink": "https://flashscore.com/match/OAXEbvw1/#match-summary"
+          },
+          {
+            "date": "05.11.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48ddf",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "QetxooMc",
+            "matchDetailsLink": "https://flashscore.com/match/QetxooMc/#match-summary"
+          },
+          {
+            "date": "12.05.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48de0",
+            "team1": "Velez Sarsfield",
+            "team2": "Union de Santa Fe",
+            "title": "Velez Sarsfield - Union de Santa Fe",
+            "fsId": "lfhW0wUI",
+            "matchDetailsLink": "https://flashscore.com/match/lfhW0wUI/#match-summary"
+          },
+          {
+            "date": "17.10.1999 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878666773b6a78b48de1",
+            "team1": "Union de Santa Fe",
+            "team2": "Velez Sarsfield",
+            "title": "Union de Santa Fe - Velez Sarsfield",
+            "fsId": "rDvlBq4m",
+            "matchDetailsLink": "https://flashscore.com/match/rDvlBq4m/#match-summary"
+          }
+        ],
+        "_id": "5e66878666773b6a78b48dba",
+        "title": "Union de Santa Fe - Velez Sarsfield",
+        "team1": "Union de Santa Fe",
+        "team2": "Velez Sarsfield",
+        "fsId": "g_1_K8BGGGbj",
+        "matchDetailsLink": "https://flashscore.com/match/K8BGGGbj/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "15.09.2019 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66878d66773b6a78b48de3",
+            "team1": "San Martin S.J.",
+            "team2": "Barracas Central",
+            "title": "San Martin S.J. - Barracas Central",
+            "fsId": "SW5sPchr",
+            "matchDetailsLink": "https://flashscore.com/match/SW5sPchr/#match-summary"
+          }
+        ],
+        "_id": "5e66878d66773b6a78b48de2",
+        "title": "Barracas Central - San Martin S.J.",
+        "team1": "Barracas Central",
+        "team2": "San Martin S.J.",
+        "fsId": "g_1_84U6e2iR",
+        "matchDetailsLink": "https://flashscore.com/match/84U6e2iR/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "15.09.2019 16:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48de6",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ae66773b6a78b48de7",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ae66773b6a78b48de5",
+            "team1": "Guillermo Brown",
+            "team2": "Ind. Rivadavia",
+            "title": "Guillermo Brown - Ind. Rivadavia",
+            "fsId": "fqcbLFi7",
+            "matchDetailsLink": "https://flashscore.com/match/fqcbLFi7/#match-summary"
+          },
+          {
+            "date": "08.04.2019 00:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48de9",
+                "minute": "86'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ae66773b6a78b48dea",
+                "minute": "86'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ae66773b6a78b48de8",
+            "team1": "Ind. Rivadavia",
+            "team2": "Guillermo Brown",
+            "title": "Ind. Rivadavia - Guillermo Brown",
+            "fsId": "jTcXoPSC",
+            "matchDetailsLink": "https://flashscore.com/match/jTcXoPSC/#match-summary"
+          },
+          {
+            "date": "11.11.2017 01:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ae66773b6a78b48deb",
+            "team1": "Ind. Rivadavia",
+            "team2": "Guillermo Brown",
+            "title": "Ind. Rivadavia - Guillermo Brown",
+            "fsId": "xf9ljK6U",
+            "matchDetailsLink": "https://flashscore.com/match/xf9ljK6U/#match-summary"
+          },
+          {
+            "date": "25.03.2017 01:30",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48ded",
+                "minute": "36'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48dee",
+                "minute": "67'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ae66773b6a78b48def",
+                "minute": "36'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ae66773b6a78b48dec",
+            "team1": "Ind. Rivadavia",
+            "team2": "Guillermo Brown",
+            "title": "Ind. Rivadavia - Guillermo Brown",
+            "fsId": "K47BDIMk",
+            "matchDetailsLink": "https://flashscore.com/match/K47BDIMk/#match-summary"
+          },
+          {
+            "date": "28.08.2016 21:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48df1",
+                "minute": "49'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ae66773b6a78b48df0",
+            "team1": "Guillermo Brown",
+            "team2": "Ind. Rivadavia",
+            "title": "Guillermo Brown - Ind. Rivadavia",
+            "fsId": "G44IDfoG",
+            "matchDetailsLink": "https://flashscore.com/match/G44IDfoG/#match-summary"
+          },
+          {
+            "date": "12.06.2016 20:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48df3",
+                "minute": "33'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48df4",
+                "minute": "49'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48df5",
+                "minute": "55'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ae66773b6a78b48df2",
+            "team1": "Ind. Rivadavia",
+            "team2": "Guillermo Brown",
+            "title": "Ind. Rivadavia - Guillermo Brown",
+            "fsId": "hIqzZVfQ",
+            "matchDetailsLink": "https://flashscore.com/match/hIqzZVfQ/#match-summary"
+          },
+          {
+            "date": "13.09.2015 16:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48df7",
+                "minute": "51'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48df8",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ae66773b6a78b48df9",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ae66773b6a78b48df6",
+            "team1": "Guillermo Brown",
+            "team2": "Ind. Rivadavia",
+            "title": "Guillermo Brown - Ind. Rivadavia",
+            "fsId": "pIosuxb9",
+            "matchDetailsLink": "https://flashscore.com/match/pIosuxb9/#match-summary"
+          },
+          {
+            "date": "27.04.2015 00:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48dfb",
+                "minute": "45'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48dfc",
+                "minute": "49'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48dfd",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48dfe",
+                "minute": "70'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ae66773b6a78b48dff",
+                "minute": "45'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ae66773b6a78b48dfa",
+            "team1": "Ind. Rivadavia",
+            "team2": "Guillermo Brown",
+            "title": "Ind. Rivadavia - Guillermo Brown",
+            "fsId": "tGidPDaO",
+            "matchDetailsLink": "https://flashscore.com/match/tGidPDaO/#match-summary"
+          },
+          {
+            "date": "17.06.2012 20:30",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48e01",
+                "minute": "5'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ae66773b6a78b48e00",
+            "team1": "Ind. Rivadavia",
+            "team2": "Guillermo Brown",
+            "title": "Ind. Rivadavia - Guillermo Brown",
+            "fsId": "tGxZJHDf",
+            "matchDetailsLink": "https://flashscore.com/match/tGxZJHDf/#match-summary"
+          },
+          {
+            "date": "11.12.2011 21:00",
+            "goals": [
+              {
+                "_id": "5e6687ae66773b6a78b48e03",
+                "minute": "12'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ae66773b6a78b48e04",
+                "minute": "22'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ae66773b6a78b48e02",
+            "team1": "Guillermo Brown",
+            "team2": "Ind. Rivadavia",
+            "title": "Guillermo Brown - Ind. Rivadavia",
+            "fsId": "KtEOD2rA",
+            "matchDetailsLink": "https://flashscore.com/match/KtEOD2rA/#match-summary"
+          }
+        ],
+        "_id": "5e6687ae66773b6a78b48de4",
+        "title": "Ind. Rivadavia - Guillermo Brown",
+        "team1": "Ind. Rivadavia",
+        "team2": "Guillermo Brown",
+        "fsId": "g_1_p0jwlKq1",
+        "matchDetailsLink": "https://flashscore.com/match/p0jwlKq1/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "22.09.2019 20:30",
+            "goals": [
+              {
+                "_id": "5e6687bc66773b6a78b48e07",
+                "minute": "9'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687bc66773b6a78b48e08",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687bc66773b6a78b48e09",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687bc66773b6a78b48e06",
+            "team1": "Comunicaciones",
+            "team2": "Defensores Unidos",
+            "title": "Comunicaciones - Defensores Unidos",
+            "fsId": "djlnjIVE",
+            "matchDetailsLink": "https://flashscore.com/match/djlnjIVE/#match-summary"
+          },
+          {
+            "date": "29.03.2019 20:00",
+            "goals": [
+              {
+                "_id": "5e6687bc66773b6a78b48e0b",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687bc66773b6a78b48e0c",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687bc66773b6a78b48e0a",
+            "team1": "Defensores Unidos",
+            "team2": "Comunicaciones",
+            "title": "Defensores Unidos - Comunicaciones",
+            "fsId": "vecewjiC",
+            "matchDetailsLink": "https://flashscore.com/match/vecewjiC/#match-summary"
+          },
+          {
+            "date": "20.10.2018 20:30",
+            "goals": [
+              {
+                "_id": "5e6687bc66773b6a78b48e0e",
+                "minute": "81'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687bc66773b6a78b48e0f",
+                "minute": "81'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687bc66773b6a78b48e0d",
+            "team1": "Comunicaciones",
+            "team2": "Defensores Unidos",
+            "title": "Comunicaciones - Defensores Unidos",
+            "fsId": "CvAe1UcC",
+            "matchDetailsLink": "https://flashscore.com/match/CvAe1UcC/#match-summary"
+          }
+        ],
+        "_id": "5e6687bc66773b6a78b48e05",
+        "title": "Defensores Unidos - Comunicaciones",
+        "team1": "Defensores Unidos",
+        "team2": "Comunicaciones",
+        "fsId": "g_1_j3Wr4EXI",
+        "matchDetailsLink": "https://flashscore.com/match/j3Wr4EXI/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "21.09.2019 18:00",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e12",
+                "minute": "69'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e13",
+                "minute": "88'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e14",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687d866773b6a78b48e15",
+                "minute": "88'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e16",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687d866773b6a78b48e11",
+            "team1": "San Telmo",
+            "team2": "Sacachispas",
+            "title": "San Telmo - Sacachispas",
+            "fsId": "trSUsfwe",
+            "matchDetailsLink": "https://flashscore.com/match/trSUsfwe/#match-summary"
+          },
+          {
+            "date": "02.02.2019 21:00",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e18",
+                "minute": "17'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e19",
+                "minute": "67'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e1a",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687d866773b6a78b48e1b",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687d866773b6a78b48e17",
+            "team1": "San Telmo",
+            "team2": "Sacachispas",
+            "title": "San Telmo - Sacachispas",
+            "fsId": "nRmv4oWq",
+            "matchDetailsLink": "https://flashscore.com/match/nRmv4oWq/#match-summary"
+          },
+          {
+            "date": "25.08.2018 20:30",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e1d",
+                "minute": "32'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e1e",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687d866773b6a78b48e1f",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687d866773b6a78b48e1c",
+            "team1": "Sacachispas",
+            "team2": "San Telmo",
+            "title": "Sacachispas - San Telmo",
+            "fsId": "YeLgpN4U",
+            "matchDetailsLink": "https://flashscore.com/match/YeLgpN4U/#match-summary"
+          },
+          {
+            "date": "14.03.2018 20:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e20",
+            "team1": "San Telmo",
+            "team2": "Sacachispas",
+            "title": "San Telmo - Sacachispas",
+            "fsId": "6Zvy3qvq",
+            "matchDetailsLink": "https://flashscore.com/match/6Zvy3qvq/#match-summary"
+          },
+          {
+            "date": "18.10.2017 20:30",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e22",
+                "minute": "12'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e21",
+            "team1": "Sacachispas",
+            "team2": "San Telmo",
+            "title": "Sacachispas - San Telmo",
+            "fsId": "E5HFIFKn",
+            "matchDetailsLink": "https://flashscore.com/match/E5HFIFKn/#match-summary"
+          },
+          {
+            "date": "17.07.2015 20:00",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e24",
+                "minute": "10'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e25",
+                "minute": "47'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e26",
+                "minute": "56'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e23",
+            "team1": "San Telmo",
+            "team2": "Sacachispas",
+            "title": "San Telmo - Sacachispas",
+            "fsId": "MubywJEP",
+            "matchDetailsLink": "https://flashscore.com/match/MubywJEP/#match-summary"
+          },
+          {
+            "date": "07.03.2015 21:00",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e28",
+                "minute": "11'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e27",
+            "team1": "Sacachispas",
+            "team2": "San Telmo",
+            "title": "Sacachispas - San Telmo",
+            "fsId": "fTl81Fi5",
+            "matchDetailsLink": "https://flashscore.com/match/fTl81Fi5/#match-summary"
+          },
+          {
+            "date": "28.09.2014 16:00",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e2a",
+                "minute": "10'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e2b",
+                "minute": "14'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e2c",
+                "minute": "23'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e2d",
+                "minute": "50'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e2e",
+                "minute": "52'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e2f",
+                "minute": "56'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687d866773b6a78b48e30",
+                "minute": "76'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e29",
+            "team1": "San Telmo",
+            "team2": "Sacachispas",
+            "title": "San Telmo - Sacachispas",
+            "fsId": "nJ5LWFwR",
+            "matchDetailsLink": "https://flashscore.com/match/nJ5LWFwR/#match-summary"
+          },
+          {
+            "date": "09.08.2014 20:30",
+            "goals": [
+              {
+                "_id": "5e6687d866773b6a78b48e32",
+                "minute": "15'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e31",
+            "team1": "Sacachispas",
+            "team2": "San Telmo",
+            "title": "Sacachispas - San Telmo",
+            "fsId": "dEOi9FbN",
+            "matchDetailsLink": "https://flashscore.com/match/dEOi9FbN/#match-summary"
+          },
+          {
+            "date": "07.05.2014 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e33",
+            "team1": "Sacachispas",
+            "team2": "San Telmo",
+            "title": "Sacachispas - San Telmo",
+            "fsId": "QRRX3g3t",
+            "matchDetailsLink": "https://flashscore.com/match/QRRX3g3t/#match-summary"
+          },
+          {
+            "date": "21.09.2013 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687d866773b6a78b48e34",
+            "team1": "San Telmo",
+            "team2": "Sacachispas",
+            "title": "San Telmo - Sacachispas",
+            "fsId": "xE1EbUjK",
+            "matchDetailsLink": "https://flashscore.com/match/xE1EbUjK/#match-summary"
+          }
+        ],
+        "_id": "5e6687d866773b6a78b48e10",
+        "title": "Sacachispas - San Telmo",
+        "team1": "Sacachispas",
+        "team2": "San Telmo",
+        "fsId": "g_1_Ikf6LF2g",
+        "matchDetailsLink": "https://flashscore.com/match/Ikf6LF2g/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "16.09.2019 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ed66773b6a78b48e36",
+            "team1": "San Martin Burzaco",
+            "team2": "El Porvenir",
+            "title": "San Martin Burzaco - El Porvenir",
+            "fsId": "reCF3pJc",
+            "matchDetailsLink": "https://flashscore.com/match/reCF3pJc/#match-summary"
+          },
+          {
+            "date": "24.02.2019 21:00",
+            "goals": [
+              {
+                "_id": "5e6687ed66773b6a78b48e38",
+                "minute": "21'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e39",
+                "minute": "31'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e3a",
+                "minute": "33'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e3b",
+                "minute": "37'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e3c",
+                "minute": "52'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ed66773b6a78b48e3d",
+                "minute": "37'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ed66773b6a78b48e37",
+            "team1": "El Porvenir",
+            "team2": "San Martin Burzaco",
+            "title": "El Porvenir - San Martin Burzaco",
+            "fsId": "bJh08Ep9",
+            "matchDetailsLink": "https://flashscore.com/match/bJh08Ep9/#match-summary"
+          },
+          {
+            "date": "18.09.2018 20:30",
+            "goals": [
+              {
+                "_id": "5e6687ed66773b6a78b48e3f",
+                "minute": "27'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e40",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e41",
+                "minute": "57'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e42",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ed66773b6a78b48e43",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ed66773b6a78b48e3e",
+            "team1": "San Martin Burzaco",
+            "team2": "El Porvenir",
+            "title": "San Martin Burzaco - El Porvenir",
+            "fsId": "d4w4WBE8",
+            "matchDetailsLink": "https://flashscore.com/match/d4w4WBE8/#match-summary"
+          },
+          {
+            "date": "02.02.2018 21:00",
+            "goals": [
+              {
+                "_id": "5e6687ed66773b6a78b48e45",
+                "minute": "22'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e46",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e47",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ed66773b6a78b48e48",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ed66773b6a78b48e44",
+            "team1": "El Porvenir",
+            "team2": "San Martin Burzaco",
+            "title": "El Porvenir - San Martin Burzaco",
+            "fsId": "ruMXBpPu",
+            "matchDetailsLink": "https://flashscore.com/match/ruMXBpPu/#match-summary"
+          },
+          {
+            "date": "03.09.2017 16:00",
+            "goals": [
+              {
+                "_id": "5e6687ed66773b6a78b48e4a",
+                "minute": "48'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e4b",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ed66773b6a78b48e4c",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ed66773b6a78b48e49",
+            "team1": "San Martin Burzaco",
+            "team2": "El Porvenir",
+            "title": "San Martin Burzaco - El Porvenir",
+            "fsId": "I3TMqb56",
+            "matchDetailsLink": "https://flashscore.com/match/I3TMqb56/#match-summary"
+          },
+          {
+            "date": "10.06.2017 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ed66773b6a78b48e4d",
+            "team1": "San Martin Burzaco",
+            "team2": "El Porvenir",
+            "title": "San Martin Burzaco - El Porvenir",
+            "fsId": "0lvqgU6q",
+            "matchDetailsLink": "https://flashscore.com/match/0lvqgU6q/#match-summary"
+          },
+          {
+            "date": "24.11.2016 21:00",
+            "goals": [
+              {
+                "_id": "5e6687ed66773b6a78b48e4f",
+                "minute": "12'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e50",
+                "minute": "33'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e51",
+                "minute": "39'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687ed66773b6a78b48e52",
+                "minute": "74'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687ed66773b6a78b48e53",
+                "minute": "39'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687ed66773b6a78b48e4e",
+            "team1": "El Porvenir",
+            "team2": "San Martin Burzaco",
+            "title": "El Porvenir - San Martin Burzaco",
+            "fsId": "vuwUyJzK",
+            "matchDetailsLink": "https://flashscore.com/match/vuwUyJzK/#match-summary"
+          },
+          {
+            "date": "27.02.2014 21:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ed66773b6a78b48e54",
+            "team1": "El Porvenir",
+            "team2": "San Martin Burzaco",
+            "title": "El Porvenir - San Martin Burzaco",
+            "fsId": "Auejgw5s",
+            "matchDetailsLink": "https://flashscore.com/match/Auejgw5s/#match-summary"
+          },
+          {
+            "date": "26.08.2013 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ed66773b6a78b48e55",
+            "team1": "San Martin Burzaco",
+            "team2": "El Porvenir",
+            "title": "San Martin Burzaco - El Porvenir",
+            "fsId": "MuzLWUNo",
+            "matchDetailsLink": "https://flashscore.com/match/MuzLWUNo/#match-summary"
+          },
+          {
+            "date": "19.05.2008 01:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ed66773b6a78b48e56",
+            "team1": "El Porvenir",
+            "team2": "San Martin Burzaco",
+            "title": "El Porvenir - San Martin Burzaco",
+            "fsId": "n1VXWTkM",
+            "matchDetailsLink": "https://flashscore.com/match/n1VXWTkM/#match-summary"
+          },
+          {
+            "date": "08.12.2007 01:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6687ed66773b6a78b48e57",
+            "team1": "San Martin Burzaco",
+            "team2": "El Porvenir",
+            "title": "San Martin Burzaco - El Porvenir",
+            "fsId": "l6BPcmk9",
+            "matchDetailsLink": "https://flashscore.com/match/l6BPcmk9/#match-summary"
+          }
+        ],
+        "_id": "5e6687ed66773b6a78b48e35",
+        "title": "El Porvenir - San Martin Burzaco",
+        "team1": "El Porvenir",
+        "team2": "San Martin Burzaco",
+        "fsId": "g_1_S0VxnHOE",
+        "matchDetailsLink": "https://flashscore.com/match/S0VxnHOE/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "07.10.2019 20:30",
+            "goals": [
+              {
+                "_id": "5e6687f466773b6a78b48e5a",
+                "minute": "36'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687f466773b6a78b48e5b",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687f466773b6a78b48e5c",
+                "minute": "77'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687f466773b6a78b48e5d",
+                "minute": "36'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687f466773b6a78b48e59",
+            "team1": "Def. de Cambaceres",
+            "team2": "Deportivo Paraguayo",
+            "title": "Def. de Cambaceres - Deportivo Paraguayo",
+            "fsId": "ptS0ZUzc",
+            "matchDetailsLink": "https://flashscore.com/match/ptS0ZUzc/#match-summary"
+          },
+          {
+            "date": "22.03.2019 19:00",
+            "goals": [
+              {
+                "_id": "5e6687f466773b6a78b48e5f",
+                "minute": "74'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6687f466773b6a78b48e60",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687f466773b6a78b48e61",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687f466773b6a78b48e5e",
+            "team1": "Deportivo Paraguayo",
+            "team2": "Def. de Cambaceres",
+            "title": "Deportivo Paraguayo - Def. de Cambaceres",
+            "fsId": "zsBITNBP",
+            "matchDetailsLink": "https://flashscore.com/match/zsBITNBP/#match-summary"
+          },
+          {
+            "date": "22.10.2018 20:30",
+            "goals": [
+              {
+                "_id": "5e6687f466773b6a78b48e63",
+                "minute": "80'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6687f466773b6a78b48e64",
+                "minute": "80'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6687f466773b6a78b48e62",
+            "team1": "Def. de Cambaceres",
+            "team2": "Deportivo Paraguayo",
+            "title": "Def. de Cambaceres - Deportivo Paraguayo",
+            "fsId": "vLnhgSHM",
+            "matchDetailsLink": "https://flashscore.com/match/vLnhgSHM/#match-summary"
+          }
+        ],
+        "_id": "5e6687f466773b6a78b48e58",
+        "title": "Deportivo Paraguayo - Def. de Cambaceres",
+        "team1": "Deportivo Paraguayo",
+        "team2": "Def. de Cambaceres",
+        "fsId": "g_1_O27Qv6VP",
+        "matchDetailsLink": "https://flashscore.com/match/O27Qv6VP/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "08.10.2019 20:30",
+            "goals": [
+              {
+                "_id": "5e66880766773b6a78b48e67",
+                "minute": "22'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e68",
+                "minute": "45'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e69",
+                "minute": "47'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e6a",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66880766773b6a78b48e6b",
+                "minute": "45'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e6c",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66880766773b6a78b48e66",
+            "team1": "CSR Espanol",
+            "team2": "Juventud Unida S. M.",
+            "title": "CSR Espanol - Juventud Unida S. M.",
+            "fsId": "OWQ4Ylj3",
+            "matchDetailsLink": "https://flashscore.com/match/OWQ4Ylj3/#match-summary"
+          },
+          {
+            "date": "04.05.2019 20:30",
+            "goals": [
+              {
+                "_id": "5e66880766773b6a78b48e6e",
+                "minute": "60'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e6f",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e70",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66880766773b6a78b48e71",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e72",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66880766773b6a78b48e6d",
+            "team1": "CSR Espanol",
+            "team2": "Juventud Unida S. M.",
+            "title": "CSR Espanol - Juventud Unida S. M.",
+            "fsId": "UTVZNDd1",
+            "matchDetailsLink": "https://flashscore.com/match/UTVZNDd1/#match-summary"
+          },
+          {
+            "date": "04.12.2018 21:00",
+            "goals": [
+              {
+                "_id": "5e66880766773b6a78b48e74",
+                "minute": "19'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e75",
+                "minute": "75'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e73",
+            "team1": "Juventud Unida S. M.",
+            "team2": "CSR Espanol",
+            "title": "Juventud Unida S. M. - CSR Espanol",
+            "fsId": "tjnlDsQh",
+            "matchDetailsLink": "https://flashscore.com/match/tjnlDsQh/#match-summary"
+          },
+          {
+            "date": "20.02.2018 21:00",
+            "goals": [
+              {
+                "_id": "5e66880766773b6a78b48e77",
+                "minute": "16'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e78",
+                "minute": "40'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e79",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66880766773b6a78b48e7a",
+                "minute": "40'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e7b",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66880766773b6a78b48e76",
+            "team1": "CSR Espanol",
+            "team2": "Juventud Unida S. M.",
+            "title": "CSR Espanol - Juventud Unida S. M.",
+            "fsId": "Gjc3Esu1",
+            "matchDetailsLink": "https://flashscore.com/match/Gjc3Esu1/#match-summary"
+          },
+          {
+            "date": "18.09.2017 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e7c",
+            "team1": "Juventud Unida S. M.",
+            "team2": "CSR Espanol",
+            "title": "Juventud Unida S. M. - CSR Espanol",
+            "fsId": "ULTInJX0",
+            "matchDetailsLink": "https://flashscore.com/match/ULTInJX0/#match-summary"
+          },
+          {
+            "date": "21.03.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e66880766773b6a78b48e7e",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66880766773b6a78b48e7f",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66880766773b6a78b48e7d",
+            "team1": "CSR Espanol",
+            "team2": "Juventud Unida S. M.",
+            "title": "CSR Espanol - Juventud Unida S. M.",
+            "fsId": "OOSUDqgL",
+            "matchDetailsLink": "https://flashscore.com/match/OOSUDqgL/#match-summary"
+          },
+          {
+            "date": "12.09.2016 20:30",
+            "goals": [
+              {
+                "_id": "5e66880766773b6a78b48e81",
+                "minute": "64'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66880766773b6a78b48e82",
+                "minute": "79'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e80",
+            "team1": "Juventud Unida S. M.",
+            "team2": "CSR Espanol",
+            "title": "Juventud Unida S. M. - CSR Espanol",
+            "fsId": "llywoHEQ",
+            "matchDetailsLink": "https://flashscore.com/match/llywoHEQ/#match-summary"
+          },
+          {
+            "date": "15.02.2014 21:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e83",
+            "team1": "Juventud Unida S. M.",
+            "team2": "CSR Espanol",
+            "title": "Juventud Unida S. M. - CSR Espanol",
+            "fsId": "KUfFmZYI",
+            "matchDetailsLink": "https://flashscore.com/match/KUfFmZYI/#match-summary"
+          },
+          {
+            "date": "31.08.2013 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e84",
+            "team1": "CSR Espanol",
+            "team2": "Juventud Unida S. M.",
+            "title": "CSR Espanol - Juventud Unida S. M.",
+            "fsId": "ANswRQiN",
+            "matchDetailsLink": "https://flashscore.com/match/ANswRQiN/#match-summary"
+          },
+          {
+            "date": "12.03.2013 21:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e85",
+            "team1": "CSR Espanol",
+            "team2": "Juventud Unida S. M.",
+            "title": "CSR Espanol - Juventud Unida S. M.",
+            "fsId": "OQ1NmmZ1",
+            "matchDetailsLink": "https://flashscore.com/match/OQ1NmmZ1/#match-summary"
+          },
+          {
+            "date": "16.09.2012 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880766773b6a78b48e86",
+            "team1": "Juventud Unida S. M.",
+            "team2": "CSR Espanol",
+            "title": "Juventud Unida S. M. - CSR Espanol",
+            "fsId": "niNQ5iK6",
+            "matchDetailsLink": "https://flashscore.com/match/niNQ5iK6/#match-summary"
+          }
+        ],
+        "_id": "5e66880766773b6a78b48e65",
+        "title": "Juventud Unida S. M. - CSR Espanol",
+        "team1": "Juventud Unida S. M.",
+        "team2": "CSR Espanol",
+        "fsId": "g_1_trfhzQws",
+        "matchDetailsLink": "https://flashscore.com/match/trfhzQws/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 19:30",
+        "historyEvents": [
+          {
+            "date": "02.12.2019 20:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880b66773b6a78b48e88",
+            "team1": "Leuven U21",
+            "team2": "Club Brugge U21",
+            "title": "Leuven U21 - Club Brugge U21",
+            "fsId": "Y1WYJosS",
+            "matchDetailsLink": "https://flashscore.com/match/Y1WYJosS/#match-summary"
+          },
+          {
+            "date": "02.09.2019 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66880b66773b6a78b48e89",
+            "team1": "Club Brugge U21",
+            "team2": "Leuven U21",
+            "title": "Club Brugge U21 - Leuven U21",
+            "fsId": "feTr99BC",
+            "matchDetailsLink": "https://flashscore.com/match/feTr99BC/#match-summary"
+          }
+        ],
+        "_id": "5e66880b66773b6a78b48e87",
+        "title": "Club Brugge U21 - Leuven U21",
+        "team1": "Club Brugge U21",
+        "team2": "Leuven U21",
+        "fsId": "g_1_MattqyAt",
+        "matchDetailsLink": "https://flashscore.com/match/MattqyAt/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 19:30",
+        "historyEvents": [
+          {
+            "date": "02.12.2019 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66881066773b6a78b48e8b",
+            "team1": "Anderlecht U21",
+            "team2": "Genk U21",
+            "title": "Anderlecht U21 - Genk U21",
+            "fsId": "bqvMMmc9",
+            "matchDetailsLink": "https://flashscore.com/match/bqvMMmc9/#match-summary"
+          },
+          {
+            "date": "02.09.2019 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66881066773b6a78b48e8c",
+            "team1": "Genk U21",
+            "team2": "Anderlecht U21",
+            "title": "Genk U21 - Anderlecht U21",
+            "fsId": "M5yWBBRg",
+            "matchDetailsLink": "https://flashscore.com/match/M5yWBBRg/#match-summary"
+          }
+        ],
+        "_id": "5e66881066773b6a78b48e8a",
+        "title": "Genk U21 - Anderlecht U21",
+        "team1": "Genk U21",
+        "team2": "Anderlecht U21",
+        "fsId": "g_1_IRZlsFvg",
+        "matchDetailsLink": "https://flashscore.com/match/IRZlsFvg/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 19:30",
+        "historyEvents": [
+          {
+            "date": "02.12.2019 20:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66881666773b6a78b48e8e",
+            "team1": "Mechelen U21",
+            "team2": "Gent U21",
+            "title": "Mechelen U21 - Gent U21",
+            "fsId": "KbSUKRRL",
+            "matchDetailsLink": "https://flashscore.com/match/KbSUKRRL/#match-summary"
+          },
+          {
+            "date": "02.09.2019 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66881666773b6a78b48e8f",
+            "team1": "Gent U21",
+            "team2": "Mechelen U21",
+            "title": "Gent U21 - Mechelen U21",
+            "fsId": "YuuzBVt0",
+            "matchDetailsLink": "https://flashscore.com/match/YuuzBVt0/#match-summary"
+          }
+        ],
+        "_id": "5e66881666773b6a78b48e8d",
+        "title": "Gent U21 - Mechelen U21",
+        "team1": "Gent U21",
+        "team2": "Mechelen U21",
+        "fsId": "g_1_pzJC03uE",
+        "matchDetailsLink": "https://flashscore.com/match/pzJC03uE/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 19:30",
+        "historyEvents": [
+          {
+            "date": "04.12.2019 20:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66881a66773b6a78b48e91",
+            "team1": "St. Truiden U21",
+            "team2": "St. Liege U21",
+            "title": "St. Truiden U21 - St. Liege U21",
+            "fsId": "xzwQL7CF",
+            "matchDetailsLink": "https://flashscore.com/match/xzwQL7CF/#match-summary"
+          },
+          {
+            "date": "02.09.2019 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66881a66773b6a78b48e92",
+            "team1": "St. Liege U21",
+            "team2": "St. Truiden U21",
+            "title": "St. Liege U21 - St. Truiden U21",
+            "fsId": "G4UvAkd6",
+            "matchDetailsLink": "https://flashscore.com/match/G4UvAkd6/#match-summary"
+          }
+        ],
+        "_id": "5e66881a66773b6a78b48e90",
+        "title": "St. Liege U21 - St. Truiden U21",
+        "team1": "St. Liege U21",
+        "team2": "St. Truiden U21",
+        "fsId": "g_1_vyyorePn",
+        "matchDetailsLink": "https://flashscore.com/match/vyyorePn/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 23:30",
+        "historyEvents": [
+          {
+            "date": "13.01.2020 22:00",
+            "goals": [
+              {
+                "_id": "5e66882666773b6a78b48e95",
+                "minute": "6'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66882666773b6a78b48e96",
+                "minute": "16'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66882666773b6a78b48e97",
+                "minute": "59'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882666773b6a78b48e94",
+            "team1": "SER Caxias (Bra)",
+            "team2": "Sao Luiz (Bra)",
+            "title": "SER Caxias (Bra) - Sao Luiz (Bra)",
+            "fsId": "4fOVr8ks",
+            "matchDetailsLink": "https://flashscore.com/match/4fOVr8ks/#match-summary"
+          },
+          {
+            "date": "23.01.2019 23:30",
+            "goals": [
+              {
+                "_id": "5e66882666773b6a78b48e99",
+                "minute": "10'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66882666773b6a78b48e9a",
+                "minute": "45+2'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66882666773b6a78b48e9b",
+                "minute": "45+2'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66882666773b6a78b48e98",
+            "team1": "Sao Luiz",
+            "team2": "SER Caxias",
+            "title": "Sao Luiz - SER Caxias",
+            "fsId": "UBpo1ZMm",
+            "matchDetailsLink": "https://flashscore.com/match/UBpo1ZMm/#match-summary"
+          },
+          {
+            "date": "08.03.2018 00:00",
+            "goals": [
+              {
+                "_id": "5e66882666773b6a78b48e9d",
+                "minute": "29'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66882666773b6a78b48e9e",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66882666773b6a78b48e9f",
+                "minute": "90+4'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66882666773b6a78b48e9c",
+            "team1": "SER Caxias",
+            "team2": "Sao Luiz",
+            "title": "SER Caxias - Sao Luiz",
+            "fsId": "rgZW3d03",
+            "matchDetailsLink": "https://flashscore.com/match/rgZW3d03/#match-summary"
+          },
+          {
+            "date": "23.02.2014 23:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882666773b6a78b48ea0",
+            "team1": "Sao Luiz",
+            "team2": "SER Caxias",
+            "title": "Sao Luiz - SER Caxias",
+            "fsId": "SK5J51jC",
+            "matchDetailsLink": "https://flashscore.com/match/SK5J51jC/#match-summary"
+          },
+          {
+            "date": "03.03.2013 20:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882666773b6a78b48ea1",
+            "team1": "Sao Luiz",
+            "team2": "SER Caxias",
+            "title": "Sao Luiz - SER Caxias",
+            "fsId": "nF7nwHKK",
+            "matchDetailsLink": "https://flashscore.com/match/nF7nwHKK/#match-summary"
+          },
+          {
+            "date": "09.02.2013 20:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882666773b6a78b48ea2",
+            "team1": "Sao Luiz",
+            "team2": "SER Caxias",
+            "title": "Sao Luiz - SER Caxias",
+            "fsId": "rPawGVGu",
+            "matchDetailsLink": "https://flashscore.com/match/rPawGVGu/#match-summary"
+          }
+        ],
+        "_id": "5e66882666773b6a78b48e93",
+        "title": "Sao Luiz - SER Caxias",
+        "team1": "Sao Luiz",
+        "team2": "SER Caxias",
+        "fsId": "g_1_xhYG6IcS",
+        "matchDetailsLink": "https://flashscore.com/match/xhYG6IcS/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 17:00",
+        "historyEvents": [
+          {
+            "date": "05.10.2019 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882c66773b6a78b48ea4",
+            "team1": "ASFA Yennega",
+            "team2": "AS Douanes",
+            "title": "ASFA Yennega - AS Douanes",
+            "fsId": "IP0eTHDA",
+            "matchDetailsLink": "https://flashscore.com/match/IP0eTHDA/#match-summary"
+          },
+          {
+            "date": "27.04.2019 18:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882c66773b6a78b48ea5",
+            "team1": "ASFA Yennega",
+            "team2": "AS Douanes",
+            "title": "ASFA Yennega - AS Douanes",
+            "fsId": "KluANbOc",
+            "matchDetailsLink": "https://flashscore.com/match/KluANbOc/#match-summary"
+          },
+          {
+            "date": "21.09.2018 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66882c66773b6a78b48ea6",
+            "team1": "AS Douanes",
+            "team2": "ASFA Yennega",
+            "title": "AS Douanes - ASFA Yennega",
+            "fsId": "UZnKdM0b",
+            "matchDetailsLink": "https://flashscore.com/match/UZnKdM0b/#match-summary"
+          }
+        ],
+        "_id": "5e66882c66773b6a78b48ea3",
+        "title": "AS Douanes - ASFA Yennega",
+        "team1": "AS Douanes",
+        "team2": "ASFA Yennega",
+        "fsId": "g_1_AaF2zabK",
+        "matchDetailsLink": "https://flashscore.com/match/AaF2zabK/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 17:00",
+        "historyEvents": [
+          {
+            "date": "06.10.2019 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66883666773b6a78b48ea8",
+            "team1": "US Ouagadougou",
+            "team2": "ASEC Koudougou",
+            "title": "US Ouagadougou - ASEC Koudougou",
+            "fsId": "AacmVwqb",
+            "matchDetailsLink": "https://flashscore.com/match/AacmVwqb/#match-summary"
+          },
+          {
+            "date": "25.02.2019 18:45",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66883666773b6a78b48ea9",
+            "team1": "US Ouagadougou",
+            "team2": "ASEC Koudougou",
+            "title": "US Ouagadougou - ASEC Koudougou",
+            "fsId": "Qe1OHZjq",
+            "matchDetailsLink": "https://flashscore.com/match/Qe1OHZjq/#match-summary"
+          },
+          {
+            "date": "10.11.2018 16:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66883666773b6a78b48eaa",
+            "team1": "ASEC Koudougou",
+            "team2": "US Ouagadougou",
+            "title": "ASEC Koudougou - US Ouagadougou",
+            "fsId": "CheyqcXi",
+            "matchDetailsLink": "https://flashscore.com/match/CheyqcXi/#match-summary"
+          }
+        ],
+        "_id": "5e66883666773b6a78b48ea7",
+        "title": "ASEC Koudougou - US Ouagadougou",
+        "team1": "ASEC Koudougou",
+        "team2": "US Ouagadougou",
+        "fsId": "g_1_ITYBDyi7",
+        "matchDetailsLink": "https://flashscore.com/match/ITYBDyi7/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 19:15",
+        "historyEvents": [
+          {
+            "date": "06.10.2019 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48eac",
+            "team1": "Rahimo",
+            "team2": "Kadiogo",
+            "title": "Rahimo - Kadiogo",
+            "fsId": "ljdiUcb4",
+            "matchDetailsLink": "https://flashscore.com/match/ljdiUcb4/#match-summary"
+          },
+          {
+            "date": "18.05.2019 18:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48ead",
+            "team1": "Kadiogo",
+            "team2": "Rahimo",
+            "title": "Kadiogo - Rahimo",
+            "fsId": "rVECNJue",
+            "matchDetailsLink": "https://flashscore.com/match/rVECNJue/#match-summary"
+          },
+          {
+            "date": "01.09.2018 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48eae",
+            "team1": "Rahimo",
+            "team2": "Kadiogo",
+            "title": "Rahimo - Kadiogo",
+            "fsId": "h6DVqN43",
+            "matchDetailsLink": "https://flashscore.com/match/h6DVqN43/#match-summary"
+          },
+          {
+            "date": "09.03.2018 17:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48eaf",
+            "team1": "Rahimo",
+            "team2": "Kadiogo",
+            "title": "Rahimo - Kadiogo",
+            "fsId": "Eaneo148",
+            "matchDetailsLink": "https://flashscore.com/match/Eaneo148/#match-summary"
+          },
+          {
+            "date": "24.12.2017 18:45",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48eb0",
+            "team1": "Kadiogo",
+            "team2": "Rahimo",
+            "title": "Kadiogo - Rahimo",
+            "fsId": "fNmTxzHC",
+            "matchDetailsLink": "https://flashscore.com/match/fNmTxzHC/#match-summary"
+          },
+          {
+            "date": "10.05.2017 18:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48eb1",
+            "team1": "Kadiogo",
+            "team2": "Rahimo",
+            "title": "Kadiogo - Rahimo",
+            "fsId": "hhbUbcjs",
+            "matchDetailsLink": "https://flashscore.com/match/hhbUbcjs/#match-summary"
+          },
+          {
+            "date": "25.02.2017 16:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66884466773b6a78b48eb2",
+            "team1": "Rahimo",
+            "team2": "Kadiogo",
+            "title": "Rahimo - Kadiogo",
+            "fsId": "SlmJRhPi",
+            "matchDetailsLink": "https://flashscore.com/match/SlmJRhPi/#match-summary"
+          }
+        ],
+        "_id": "5e66884466773b6a78b48eab",
+        "title": "Kadiogo - Rahimo",
+        "team1": "Kadiogo",
+        "team2": "Rahimo",
+        "fsId": "g_1_vZJ6ZIDQ",
+        "matchDetailsLink": "https://flashscore.com/match/vZJ6ZIDQ/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 22:30",
+        "historyEvents": [
+          {
+            "date": "17.03.2019 22:15",
+            "goals": [
+              {
+                "_id": "5e66885f66773b6a78b48eb5",
+                "minute": "3'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66885f66773b6a78b48eb6",
+                "minute": "48'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48eb4",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "f7oI0WPa",
+            "matchDetailsLink": "https://flashscore.com/match/f7oI0WPa/#match-summary"
+          },
+          {
+            "date": "24.09.2017 20:30",
+            "goals": [
+              {
+                "_id": "5e66885f66773b6a78b48eb8",
+                "minute": "42'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66885f66773b6a78b48eb9",
+                "minute": "45+3'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66885f66773b6a78b48eba",
+                "minute": "52'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66885f66773b6a78b48ebb",
+                "minute": "63'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66885f66773b6a78b48ebc",
+                "minute": "42'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66885f66773b6a78b48ebd",
+                "minute": "45+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66885f66773b6a78b48eb7",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "Q3Ls7Q8i",
+            "matchDetailsLink": "https://flashscore.com/match/Q3Ls7Q8i/#match-summary"
+          },
+          {
+            "date": "21.01.2017 00:00",
+            "goals": [
+              {
+                "_id": "5e66885f66773b6a78b48ebf",
+                "minute": "40'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66885f66773b6a78b48ec0",
+                "minute": "40'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66885f66773b6a78b48ebe",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "6ySZmA1b",
+            "matchDetailsLink": "https://flashscore.com/match/6ySZmA1b/#match-summary"
+          },
+          {
+            "date": "10.09.2016 21:00",
+            "goals": [
+              {
+                "_id": "5e66885f66773b6a78b48ec2",
+                "minute": "26'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec1",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "82XPoqTf",
+            "matchDetailsLink": "https://flashscore.com/match/82XPoqTf/#match-summary"
+          },
+          {
+            "date": "02.09.2010 02:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec3",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "4lIphGD6",
+            "matchDetailsLink": "https://flashscore.com/match/4lIphGD6/#match-summary"
+          },
+          {
+            "date": "11.07.2010 02:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec4",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "EVZC3qHq",
+            "matchDetailsLink": "https://flashscore.com/match/EVZC3qHq/#match-summary"
+          },
+          {
+            "date": "25.04.2010 02:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec5",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "MoAGwMeT",
+            "matchDetailsLink": "https://flashscore.com/match/MoAGwMeT/#match-summary"
+          },
+          {
+            "date": "23.02.2010 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec6",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "bewWMIaE",
+            "matchDetailsLink": "https://flashscore.com/match/bewWMIaE/#match-summary"
+          },
+          {
+            "date": "04.10.2009 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec7",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "vNl50hJk",
+            "matchDetailsLink": "https://flashscore.com/match/vNl50hJk/#match-summary"
+          },
+          {
+            "date": "09.07.2009 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec8",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "jRquGI0n",
+            "matchDetailsLink": "https://flashscore.com/match/jRquGI0n/#match-summary"
+          },
+          {
+            "date": "17.05.2009 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ec9",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "2kXrLAsj",
+            "matchDetailsLink": "https://flashscore.com/match/2kXrLAsj/#match-summary"
+          },
+          {
+            "date": "08.02.2009 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48eca",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "zeV2HMI7",
+            "matchDetailsLink": "https://flashscore.com/match/zeV2HMI7/#match-summary"
+          },
+          {
+            "date": "14.09.2008 21:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ecb",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "Cf3ROepA",
+            "matchDetailsLink": "https://flashscore.com/match/Cf3ROepA/#match-summary"
+          },
+          {
+            "date": "13.07.2008 21:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ecc",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "23t4R6vT",
+            "matchDetailsLink": "https://flashscore.com/match/23t4R6vT/#match-summary"
+          },
+          {
+            "date": "27.04.2008 21:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ecd",
+            "team1": "Union La Calera",
+            "team2": "Coquimbo",
+            "title": "Union La Calera - Coquimbo",
+            "fsId": "Mwleqfg4",
+            "matchDetailsLink": "https://flashscore.com/match/Mwleqfg4/#match-summary"
+          },
+          {
+            "date": "20.02.2008 22:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66885f66773b6a78b48ece",
+            "team1": "Coquimbo",
+            "team2": "Union La Calera",
+            "title": "Coquimbo - Union La Calera",
+            "fsId": "MorLt3Qj",
+            "matchDetailsLink": "https://flashscore.com/match/MorLt3Qj/#match-summary"
+          }
+        ],
+        "_id": "5e66885f66773b6a78b48eb3",
+        "title": "Union La Calera - Coquimbo",
+        "team1": "Union La Calera",
+        "team2": "Coquimbo",
+        "fsId": "g_1_va77yOPP",
+        "matchDetailsLink": "https://flashscore.com/match/va77yOPP/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:45",
+        "historyEvents": [
+          {
+            "date": "09.11.2019 16:00",
+            "goals": [
+              {
+                "_id": "5e66886466773b6a78b48ed1",
+                "minute": "1'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66886466773b6a78b48ed2",
+                "minute": "17'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66886466773b6a78b48ed0",
+            "team1": "Farsley",
+            "team2": "Gloucester",
+            "title": "Farsley - Gloucester",
+            "fsId": "rkZ5ZgSF",
+            "matchDetailsLink": "https://flashscore.com/match/rkZ5ZgSF/#match-summary"
+          },
+          {
+            "date": "06.02.2010 16:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66886466773b6a78b48ed3",
+            "team1": "Farsley",
+            "team2": "Gloucester",
+            "title": "Farsley - Gloucester",
+            "fsId": "A7Hr2jeG",
+            "matchDetailsLink": "https://flashscore.com/match/A7Hr2jeG/#match-summary"
+          },
+          {
+            "date": "15.08.2009 16:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66886466773b6a78b48ed4",
+            "team1": "Gloucester",
+            "team2": "Farsley",
+            "title": "Gloucester - Farsley",
+            "fsId": "EwapLMrl",
+            "matchDetailsLink": "https://flashscore.com/match/EwapLMrl/#match-summary"
+          }
+        ],
+        "_id": "5e66886466773b6a78b48ecf",
+        "title": "Gloucester - Farsley",
+        "team1": "Gloucester",
+        "team2": "Farsley",
+        "fsId": "g_1_0MgcKich",
+        "matchDetailsLink": "https://flashscore.com/match/0MgcKich/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:45",
+        "historyEvents": [
+          {
+            "date": "21.01.2020 20:45",
+            "goals": [
+              {
+                "_id": "5e66886b66773b6a78b48ed7",
+                "minute": "21'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66886b66773b6a78b48ed8",
+                "minute": "64'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66886b66773b6a78b48ed9",
+                "minute": "69'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66886b66773b6a78b48eda",
+                "minute": "79'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66886b66773b6a78b48ed6",
+            "team1": "Peterborough Sports",
+            "team2": "Hitchin",
+            "title": "Peterborough Sports - Hitchin",
+            "fsId": "vNXVHzbf",
+            "matchDetailsLink": "https://flashscore.com/match/vNXVHzbf/#match-summary"
+          },
+          {
+            "date": "14.09.2015 20:45",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66886b66773b6a78b48edb",
+            "team1": "Hitchin",
+            "team2": "Peterborough Sports",
+            "title": "Hitchin - Peterborough Sports",
+            "fsId": "M9BYHGRA",
+            "matchDetailsLink": "https://flashscore.com/match/M9BYHGRA/#match-summary"
+          },
+          {
+            "date": "12.09.2015 16:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66886b66773b6a78b48edc",
+            "team1": "Peterborough Sports",
+            "team2": "Hitchin",
+            "title": "Peterborough Sports - Hitchin",
+            "fsId": "rsifDzKu",
+            "matchDetailsLink": "https://flashscore.com/match/rsifDzKu/#match-summary"
+          }
+        ],
+        "_id": "5e66886b66773b6a78b48ed5",
+        "title": "Hitchin - Peterborough Sports",
+        "team1": "Hitchin",
+        "team2": "Peterborough Sports",
+        "fsId": "g_1_ALA2IDuo",
+        "matchDetailsLink": "https://flashscore.com/match/ALA2IDuo/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:00",
+        "historyEvents": [
+          {
+            "date": "10.01.2020 20:00",
+            "goals": [
+              {
+                "_id": "5e66887666773b6a78b48edf",
+                "minute": "27'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66887666773b6a78b48ede",
+            "team1": "Wolves U23",
+            "team2": "Blackburn U23",
+            "title": "Wolves U23 - Blackburn U23",
+            "fsId": "f92w11VF",
+            "matchDetailsLink": "https://flashscore.com/match/f92w11VF/#match-summary"
+          },
+          {
+            "date": "23.08.2019 20:00",
+            "goals": [
+              {
+                "_id": "5e66887666773b6a78b48ee1",
+                "minute": "51'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ee2",
+                "minute": "58'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ee3",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66887666773b6a78b48ee4",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66887666773b6a78b48ee0",
+            "team1": "Blackburn U23",
+            "team2": "Wolves U23",
+            "title": "Blackburn U23 - Wolves U23",
+            "fsId": "v5ET4kVc",
+            "matchDetailsLink": "https://flashscore.com/match/v5ET4kVc/#match-summary"
+          },
+          {
+            "date": "26.03.2018 20:00",
+            "goals": [
+              {
+                "_id": "5e66887666773b6a78b48ee6",
+                "minute": "30'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ee7",
+                "minute": "52'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ee8",
+                "minute": "66'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66887666773b6a78b48ee5",
+            "team1": "Wolves U23",
+            "team2": "Blackburn U23",
+            "title": "Wolves U23 - Blackburn U23",
+            "fsId": "fNiyu2a5",
+            "matchDetailsLink": "https://flashscore.com/match/fNiyu2a5/#match-summary"
+          },
+          {
+            "date": "14.08.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e66887666773b6a78b48eea",
+                "minute": "4'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48eeb",
+                "minute": "15'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48eec",
+                "minute": "55'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48eed",
+                "minute": "57'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48eee",
+                "minute": "71'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48eef",
+                "minute": "74'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66887666773b6a78b48ee9",
+            "team1": "Blackburn U23",
+            "team2": "Wolves U23",
+            "title": "Blackburn U23 - Wolves U23",
+            "fsId": "EP35dRDt",
+            "matchDetailsLink": "https://flashscore.com/match/EP35dRDt/#match-summary"
+          },
+          {
+            "date": "16.01.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e66887666773b6a78b48ef1",
+                "minute": "28'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ef2",
+                "minute": "70'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ef3",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66887666773b6a78b48ef4",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66887666773b6a78b48ef0",
+            "team1": "Wolves U23",
+            "team2": "Blackburn U23",
+            "title": "Wolves U23 - Blackburn U23",
+            "fsId": "jHZCM8Di",
+            "matchDetailsLink": "https://flashscore.com/match/jHZCM8Di/#match-summary"
+          },
+          {
+            "date": "26.09.2016 20:00",
+            "goals": [
+              {
+                "_id": "5e66887666773b6a78b48ef6",
+                "minute": "26'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ef7",
+                "minute": "36'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ef8",
+                "minute": "59'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48ef9",
+                "minute": "62'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66887666773b6a78b48efa",
+                "minute": "73'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66887666773b6a78b48efb",
+                "minute": "36'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66887666773b6a78b48ef5",
+            "team1": "Blackburn U23",
+            "team2": "Wolves U23",
+            "title": "Blackburn U23 - Wolves U23",
+            "fsId": "OOpwid69",
+            "matchDetailsLink": "https://flashscore.com/match/OOpwid69/#match-summary"
+          }
+        ],
+        "_id": "5e66887666773b6a78b48edd",
+        "title": "Blackburn U23 - Wolves U23",
+        "team1": "Blackburn U23",
+        "team2": "Wolves U23",
+        "fsId": "g_1_MsFJQEQb",
+        "matchDetailsLink": "https://flashscore.com/match/MsFJQEQb/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:00",
+        "historyEvents": [],
+        "_id": "5e66887766773b6a78b48efc",
+        "title": "nodata - nodata",
+        "team1": "nodata",
+        "team2": "nodata",
+        "fsId": "g_1_jN6zNWPN",
+        "matchDetailsLink": "https://flashscore.com/match/jN6zNWPN/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:45",
+        "historyEvents": [
+          {
+            "date": "07.10.2019 20:45",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48eff",
+                "minute": "30'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f00",
+                "minute": "63'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f01",
+                "minute": "66'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f02",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f03",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66888366773b6a78b48f04",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f05",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66888366773b6a78b48efe",
+            "team1": "Orleans",
+            "team2": "Lens",
+            "title": "Orleans - Lens",
+            "fsId": "nu9cIcOS",
+            "matchDetailsLink": "https://flashscore.com/match/nu9cIcOS/#match-summary"
+          },
+          {
+            "date": "17.05.2019 20:45",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48f07",
+                "minute": "19'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f08",
+                "minute": "27'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f09",
+                "minute": "36'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f0a",
+                "minute": "45+2'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f0b",
+                "minute": "52'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f0c",
+                "minute": "57'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f0d",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66888366773b6a78b48f0e",
+                "minute": "36'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f0f",
+                "minute": "45+2'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f10",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66888366773b6a78b48f06",
+            "team1": "Lens",
+            "team2": "Orleans",
+            "title": "Lens - Orleans",
+            "fsId": "lpueNo7j",
+            "matchDetailsLink": "https://flashscore.com/match/lpueNo7j/#match-summary"
+          },
+          {
+            "date": "27.07.2018 20:00",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48f12",
+                "minute": "19'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f13",
+                "minute": "88'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66888366773b6a78b48f14",
+                "minute": "88'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66888366773b6a78b48f11",
+            "team1": "Orleans",
+            "team2": "Lens",
+            "title": "Orleans - Lens",
+            "fsId": "G4xVyhrA",
+            "matchDetailsLink": "https://flashscore.com/match/G4xVyhrA/#match-summary"
+          },
+          {
+            "date": "26.01.2018 20:00",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48f16",
+                "minute": "49'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66888366773b6a78b48f15",
+            "team1": "Lens",
+            "team2": "Orleans",
+            "title": "Lens - Orleans",
+            "fsId": "nFZZZ4vE",
+            "matchDetailsLink": "https://flashscore.com/match/nFZZZ4vE/#match-summary"
+          },
+          {
+            "date": "28.08.2017 20:45",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48f18",
+                "minute": "5'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f19",
+                "minute": "28'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66888366773b6a78b48f17",
+            "team1": "Orleans",
+            "team2": "Lens",
+            "title": "Orleans - Lens",
+            "fsId": "lM2tIA2p",
+            "matchDetailsLink": "https://flashscore.com/match/lM2tIA2p/#match-summary"
+          },
+          {
+            "date": "20.02.2017 20:45",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48f1b",
+                "minute": "52'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f1c",
+                "minute": "83'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f1d",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66888366773b6a78b48f1e",
+                "minute": "83'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f1f",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66888366773b6a78b48f1a",
+            "team1": "Orleans",
+            "team2": "Lens",
+            "title": "Orleans - Lens",
+            "fsId": "S20BG2FG",
+            "matchDetailsLink": "https://flashscore.com/match/S20BG2FG/#match-summary"
+          },
+          {
+            "date": "20.09.2016 21:00",
+            "goals": [
+              {
+                "_id": "5e66888366773b6a78b48f21",
+                "minute": "8'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f22",
+                "minute": "33'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f23",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f24",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f25",
+                "minute": "63'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66888366773b6a78b48f26",
+                "minute": "75'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66888366773b6a78b48f27",
+                "minute": "41'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66888366773b6a78b48f20",
+            "team1": "Lens",
+            "team2": "Orleans",
+            "title": "Lens - Orleans",
+            "fsId": "tvSrjXtG",
+            "matchDetailsLink": "https://flashscore.com/match/tvSrjXtG/#match-summary"
+          },
+          {
+            "date": "20.01.2007 19:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66888366773b6a78b48f28",
+            "team1": "Orleans",
+            "team2": "Lens",
+            "title": "Orleans - Lens",
+            "fsId": "QHGpn9GS",
+            "matchDetailsLink": "https://flashscore.com/match/QHGpn9GS/#match-summary"
+          }
+        ],
+        "_id": "5e66888366773b6a78b48efd",
+        "title": "Lens - Orleans",
+        "team1": "Lens",
+        "team2": "Orleans",
+        "fsId": "g_1_jeEgfLBQ",
+        "matchDetailsLink": "https://flashscore.com/match/jeEgfLBQ/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 17:30",
+        "historyEvents": [
+          {
+            "date": "29.04.2019 17:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f2a",
+            "team1": "Wallidan",
+            "team2": "Hawks",
+            "title": "Wallidan - Hawks",
+            "fsId": "jXahIgY5",
+            "matchDetailsLink": "https://flashscore.com/match/jXahIgY5/#match-summary"
+          },
+          {
+            "date": "01.03.2019 17:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f2b",
+            "team1": "Hawks",
+            "team2": "Wallidan",
+            "title": "Hawks - Wallidan",
+            "fsId": "IZHbWXkS",
+            "matchDetailsLink": "https://flashscore.com/match/IZHbWXkS/#match-summary"
+          },
+          {
+            "date": "03.04.2016 18:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f2c",
+            "team1": "Wallidan",
+            "team2": "Hawks",
+            "title": "Wallidan - Hawks",
+            "fsId": "jw7B39WS",
+            "matchDetailsLink": "https://flashscore.com/match/jw7B39WS/#match-summary"
+          },
+          {
+            "date": "21.02.2016 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f2d",
+            "team1": "Hawks",
+            "team2": "Wallidan",
+            "title": "Hawks - Wallidan",
+            "fsId": "GY9fI01l",
+            "matchDetailsLink": "https://flashscore.com/match/GY9fI01l/#match-summary"
+          },
+          {
+            "date": "20.05.2015 18:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f2e",
+            "team1": "Hawks",
+            "team2": "Wallidan",
+            "title": "Hawks - Wallidan",
+            "fsId": "QV1qFbwi",
+            "matchDetailsLink": "https://flashscore.com/match/QV1qFbwi/#match-summary"
+          },
+          {
+            "date": "21.12.2014 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f2f",
+            "team1": "Wallidan",
+            "team2": "Hawks",
+            "title": "Wallidan - Hawks",
+            "fsId": "dU4U8Z2U",
+            "matchDetailsLink": "https://flashscore.com/match/dU4U8Z2U/#match-summary"
+          },
+          {
+            "date": "18.06.2014 18:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f30",
+            "team1": "Hawks",
+            "team2": "Wallidan",
+            "title": "Hawks - Wallidan",
+            "fsId": "dbvDzAgS",
+            "matchDetailsLink": "https://flashscore.com/match/dbvDzAgS/#match-summary"
+          },
+          {
+            "date": "19.02.2014 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66889266773b6a78b48f31",
+            "team1": "Wallidan",
+            "team2": "Hawks",
+            "title": "Wallidan - Hawks",
+            "fsId": "zTkPMXNF",
+            "matchDetailsLink": "https://flashscore.com/match/zTkPMXNF/#match-summary"
+          }
+        ],
+        "_id": "5e66889266773b6a78b48f29",
+        "title": "Hawks - Wallidan",
+        "team1": "Hawks",
+        "team2": "Wallidan",
+        "fsId": "g_1_SG9SFvkM",
+        "matchDetailsLink": "https://flashscore.com/match/SG9SFvkM/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:30",
+        "historyEvents": [
+          {
+            "date": "27.09.2019 18:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f34",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f35",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f33",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "j1qRIwi9",
+            "matchDetailsLink": "https://flashscore.com/match/j1qRIwi9/#match-summary"
+          },
+          {
+            "date": "17.04.2017 20:15",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f37",
+                "minute": "15'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f38",
+                "minute": "51'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f39",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f3a",
+                "minute": "73'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f3b",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f3c",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f36",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "pnJQZ17i",
+            "matchDetailsLink": "https://flashscore.com/match/pnJQZ17i/#match-summary"
+          },
+          {
+            "date": "06.11.2016 13:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f3e",
+                "minute": "13'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f3f",
+                "minute": "64'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f40",
+                "minute": "70'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f41",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f42",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f3d",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "6LNaHpYt",
+            "matchDetailsLink": "https://flashscore.com/match/6LNaHpYt/#match-summary"
+          },
+          {
+            "date": "02.05.2009 15:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f44",
+                "minute": "4'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f45",
+                "minute": "30'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f46",
+                "minute": "35'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f47",
+                "minute": "68'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f48",
+                "minute": "35'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f43",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "pOf9JQCq",
+            "matchDetailsLink": "https://flashscore.com/match/pOf9JQCq/#match-summary"
+          },
+          {
+            "date": "15.11.2008 15:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f49",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "0pnZj91q",
+            "matchDetailsLink": "https://flashscore.com/match/0pnZj91q/#match-summary"
+          },
+          {
+            "date": "24.09.2008 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f4a",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "nggpqsCI",
+            "matchDetailsLink": "https://flashscore.com/match/nggpqsCI/#match-summary"
+          },
+          {
+            "date": "17.05.2008 15:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f4c",
+                "minute": "10'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f4d",
+                "minute": "75'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f4e",
+                "minute": "85'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f4f",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f50",
+                "minute": "85'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f51",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f4b",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "8heKze4M",
+            "matchDetailsLink": "https://flashscore.com/match/8heKze4M/#match-summary"
+          },
+          {
+            "date": "15.12.2007 15:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f53",
+                "minute": "79'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f54",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f55",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f52",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "URZH6b4K",
+            "matchDetailsLink": "https://flashscore.com/match/URZH6b4K/#match-summary"
+          },
+          {
+            "date": "30.01.2007 20:00",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f57",
+                "minute": "9'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f58",
+                "minute": "26'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f59",
+                "minute": "52'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f5a",
+                "minute": "59'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f5b",
+                "minute": "86'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f5c",
+                "minute": "86'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f56",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "06dxMHLI",
+            "matchDetailsLink": "https://flashscore.com/match/06dxMHLI/#match-summary"
+          },
+          {
+            "date": "20.08.2006 17:00",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f5e",
+                "minute": "39'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f5f",
+                "minute": "65'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f60",
+                "minute": "73'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f61",
+                "minute": "76'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f62",
+                "minute": "82'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f63",
+                "minute": "39'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f64",
+                "minute": "82'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f5d",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "xQ6LvN8E",
+            "matchDetailsLink": "https://flashscore.com/match/xQ6LvN8E/#match-summary"
+          },
+          {
+            "date": "11.02.2006 15:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f66",
+                "minute": "30'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f67",
+                "minute": "37'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f68",
+                "minute": "50'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f69",
+                "minute": "37'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f65",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "C6LBoM2F",
+            "matchDetailsLink": "https://flashscore.com/match/C6LBoM2F/#match-summary"
+          },
+          {
+            "date": "10.09.2005 15:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f6b",
+                "minute": "59'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f6c",
+                "minute": "81'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f6d",
+                "minute": "81'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f6a",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "M7iIyjqJ",
+            "matchDetailsLink": "https://flashscore.com/match/M7iIyjqJ/#match-summary"
+          },
+          {
+            "date": "05.03.2005 15:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f6f",
+                "minute": "48'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f70",
+                "minute": "74'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f71",
+                "minute": "76'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f6e",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "Y7StE9xf",
+            "matchDetailsLink": "https://flashscore.com/match/Y7StE9xf/#match-summary"
+          },
+          {
+            "date": "03.10.2004 17:30",
+            "goals": [
+              {
+                "_id": "5e6688b466773b6a78b48f73",
+                "minute": "43'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f74",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688b466773b6a78b48f75",
+                "minute": "43'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688b466773b6a78b48f76",
+                "minute": "90'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688b466773b6a78b48f72",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "CQ74TrbS",
+            "matchDetailsLink": "https://flashscore.com/match/CQ74TrbS/#match-summary"
+          },
+          {
+            "date": "02.03.2003 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f77",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "A9Zvyvb6",
+            "matchDetailsLink": "https://flashscore.com/match/A9Zvyvb6/#match-summary"
+          },
+          {
+            "date": "22.09.2002 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f78",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "Q5Dt61DA",
+            "matchDetailsLink": "https://flashscore.com/match/Q5Dt61DA/#match-summary"
+          },
+          {
+            "date": "20.05.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f79",
+            "team1": "Stuttgart",
+            "team2": "Arminia Bielefeld",
+            "title": "Stuttgart - Arminia Bielefeld",
+            "fsId": "Q1UqlfgL",
+            "matchDetailsLink": "https://flashscore.com/match/Q1UqlfgL/#match-summary"
+          },
+          {
+            "date": "17.12.1999 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688b466773b6a78b48f7a",
+            "team1": "Arminia Bielefeld",
+            "team2": "Stuttgart",
+            "title": "Arminia Bielefeld - Stuttgart",
+            "fsId": "0nZK3rKI",
+            "matchDetailsLink": "https://flashscore.com/match/0nZK3rKI/#match-summary"
+          }
+        ],
+        "_id": "5e6688b466773b6a78b48f32",
+        "title": "Stuttgart - Arminia Bielefeld",
+        "team1": "Stuttgart",
+        "team2": "Arminia Bielefeld",
+        "fsId": "g_1_pGrAUq94",
+        "matchDetailsLink": "https://flashscore.com/match/pGrAUq94/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:15",
+        "historyEvents": [
+          {
+            "date": "24.08.2019 14:00",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f7d",
+                "minute": "29'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f7e",
+                "minute": "46'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f7f",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688d366773b6a78b48f80",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688d366773b6a78b48f7c",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "nJB4xOLK",
+            "matchDetailsLink": "https://flashscore.com/match/nJB4xOLK/#match-summary"
+          },
+          {
+            "date": "23.11.2018 19:30",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f82",
+                "minute": "72'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48f81",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "4pP0i2oC",
+            "matchDetailsLink": "https://flashscore.com/match/4pP0i2oC/#match-summary"
+          },
+          {
+            "date": "27.07.2018 19:00",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f84",
+                "minute": "53'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f85",
+                "minute": "75'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48f83",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "K6IWN5oA",
+            "matchDetailsLink": "https://flashscore.com/match/K6IWN5oA/#match-summary"
+          },
+          {
+            "date": "11.02.2018 14:00",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f87",
+                "minute": "48'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f88",
+                "minute": "58'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f89",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688d366773b6a78b48f8a",
+                "minute": "90+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688d366773b6a78b48f86",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "UcieFF9l",
+            "matchDetailsLink": "https://flashscore.com/match/UcieFF9l/#match-summary"
+          },
+          {
+            "date": "23.08.2017 19:00",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f8c",
+                "minute": "29'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f8d",
+                "minute": "50'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f8e",
+                "minute": "67'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f8f",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688d366773b6a78b48f90",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688d366773b6a78b48f8b",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "t6zELMes",
+            "matchDetailsLink": "https://flashscore.com/match/t6zELMes/#match-summary"
+          },
+          {
+            "date": "25.03.2017 14:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48f91",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "MZ6dacnJ",
+            "matchDetailsLink": "https://flashscore.com/match/MZ6dacnJ/#match-summary"
+          },
+          {
+            "date": "24.09.2016 14:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48f92",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "QiLF3r3O",
+            "matchDetailsLink": "https://flashscore.com/match/QiLF3r3O/#match-summary"
+          },
+          {
+            "date": "28.03.2016 20:15",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f94",
+                "minute": "78'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f95",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688d366773b6a78b48f96",
+                "minute": "90+2'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688d366773b6a78b48f93",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "Mgg2pYqd",
+            "matchDetailsLink": "https://flashscore.com/match/Mgg2pYqd/#match-summary"
+          },
+          {
+            "date": "13.09.2015 14:00",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48f98",
+                "minute": "11'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f99",
+                "minute": "17'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f9a",
+                "minute": "35'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f9b",
+                "minute": "58'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f9c",
+                "minute": "67'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f9d",
+                "minute": "74'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48f9e",
+                "minute": "82'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688d366773b6a78b48f9f",
+                "minute": "35'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688d366773b6a78b48fa0",
+                "minute": "82'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688d366773b6a78b48f97",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "t6Sw39LB",
+            "matchDetailsLink": "https://flashscore.com/match/t6Sw39LB/#match-summary"
+          },
+          {
+            "date": "20.03.2015 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fa1",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "pt2OS7Rb",
+            "matchDetailsLink": "https://flashscore.com/match/pt2OS7Rb/#match-summary"
+          },
+          {
+            "date": "30.08.2014 14:00",
+            "goals": [
+              {
+                "_id": "5e6688d366773b6a78b48fa3",
+                "minute": "86'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688d366773b6a78b48fa4",
+                "minute": "86'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688d366773b6a78b48fa2",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "SQO4LG0k",
+            "matchDetailsLink": "https://flashscore.com/match/SQO4LG0k/#match-summary"
+          },
+          {
+            "date": "20.04.2005 16:28",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fa5",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "Y39oMwAC",
+            "matchDetailsLink": "https://flashscore.com/match/Y39oMwAC/#match-summary"
+          },
+          {
+            "date": "03.09.2004 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fa6",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "zuKFHlap",
+            "matchDetailsLink": "https://flashscore.com/match/zuKFHlap/#match-summary"
+          },
+          {
+            "date": "21.05.2004 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fa7",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "YXNNdKQJ",
+            "matchDetailsLink": "https://flashscore.com/match/YXNNdKQJ/#match-summary"
+          },
+          {
+            "date": "09.11.2003 15:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fa8",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "xvfI2nU9",
+            "matchDetailsLink": "https://flashscore.com/match/xvfI2nU9/#match-summary"
+          },
+          {
+            "date": "14.03.2003 19:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fa9",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "Gtfha3fg",
+            "matchDetailsLink": "https://flashscore.com/match/Gtfha3fg/#match-summary"
+          },
+          {
+            "date": "17.08.2002 14:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48faa",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "xt6J1SuB",
+            "matchDetailsLink": "https://flashscore.com/match/xt6J1SuB/#match-summary"
+          },
+          {
+            "date": "08.12.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fab",
+            "team1": "Elversberg",
+            "team2": "Offenbach",
+            "title": "Elversberg - Offenbach",
+            "fsId": "lx3b28Mh",
+            "matchDetailsLink": "https://flashscore.com/match/lx3b28Mh/#match-summary"
+          },
+          {
+            "date": "18.08.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fac",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "roFsLqb8",
+            "matchDetailsLink": "https://flashscore.com/match/roFsLqb8/#match-summary"
+          },
+          {
+            "date": "12.05.2001 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688d366773b6a78b48fad",
+            "team1": "Offenbach",
+            "team2": "Elversberg",
+            "title": "Offenbach - Elversberg",
+            "fsId": "pnyp1p95",
+            "matchDetailsLink": "https://flashscore.com/match/pnyp1p95/#match-summary"
+          }
+        ],
+        "_id": "5e6688d366773b6a78b48f7b",
+        "title": "Elversberg - Offenbach",
+        "team1": "Elversberg",
+        "team2": "Offenbach",
+        "fsId": "g_1_fHn6yifA",
+        "matchDetailsLink": "https://flashscore.com/match/fHn6yifA/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 19:15",
+        "historyEvents": [
+          {
+            "date": "01.03.2020 19:15",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fb0",
+                "minute": "15'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fb1",
+                "minute": "17'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fb2",
+                "minute": "57'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fb3",
+                "minute": "82'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fb4",
+                "minute": "82'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48faf",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "2HbcsHbk",
+            "matchDetailsLink": "https://flashscore.com/match/2HbcsHbk/#match-summary"
+          },
+          {
+            "date": "09.12.2019 19:15",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fb6",
+                "minute": "7'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fb7",
+                "minute": "45'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fb8",
+                "minute": "45'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fb5",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "pMc2utBB",
+            "matchDetailsLink": "https://flashscore.com/match/pMc2utBB/#match-summary"
+          },
+          {
+            "date": "21.07.2019 19:30",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fba",
+                "minute": "18'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688f866773b6a78b48fb9",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "6B8jYse4",
+            "matchDetailsLink": "https://flashscore.com/match/6B8jYse4/#match-summary"
+          },
+          {
+            "date": "06.05.2019 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fbc",
+                "minute": "26'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fbd",
+                "minute": "44'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fbe",
+                "minute": "45+1'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fbf",
+                "minute": "49'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fc0",
+                "minute": "44'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fc1",
+                "minute": "45+1'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fbb",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "hGERz68D",
+            "matchDetailsLink": "https://flashscore.com/match/hGERz68D/#match-summary"
+          },
+          {
+            "date": "22.04.2019 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fc3",
+                "minute": "83'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fc4",
+                "minute": "83'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fc2",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "6JtvpAoR",
+            "matchDetailsLink": "https://flashscore.com/match/6JtvpAoR/#match-summary"
+          },
+          {
+            "date": "12.01.2019 19:30",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fc6",
+                "minute": "72'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fc7",
+                "minute": "90+5'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fc8",
+                "minute": "90+5'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fc5",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "6wgJKubD",
+            "matchDetailsLink": "https://flashscore.com/match/6wgJKubD/#match-summary"
+          },
+          {
+            "date": "01.10.2018 19:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688f866773b6a78b48fc9",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "GI3fF43p",
+            "matchDetailsLink": "https://flashscore.com/match/GI3fF43p/#match-summary"
+          },
+          {
+            "date": "25.12.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fcb",
+                "minute": "10'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fcc",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fcd",
+                "minute": "89'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fca",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "UTNyPErE",
+            "matchDetailsLink": "https://flashscore.com/match/UTNyPErE/#match-summary"
+          },
+          {
+            "date": "30.11.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fcf",
+                "minute": "72'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688f866773b6a78b48fce",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "0ITKQCrG",
+            "matchDetailsLink": "https://flashscore.com/match/0ITKQCrG/#match-summary"
+          },
+          {
+            "date": "27.08.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fd1",
+                "minute": "30'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fd2",
+                "minute": "48'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fd3",
+                "minute": "65'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fd4",
+                "minute": "90+5'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fd5",
+                "minute": "90+5'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fd0",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "QRFQgEQj",
+            "matchDetailsLink": "https://flashscore.com/match/QRFQgEQj/#match-summary"
+          },
+          {
+            "date": "25.04.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fd7",
+                "minute": "6'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e6688f866773b6a78b48fd6",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "rqUN1J1d",
+            "matchDetailsLink": "https://flashscore.com/match/rqUN1J1d/#match-summary"
+          },
+          {
+            "date": "19.03.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fd9",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fda",
+                "minute": "55'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fdb",
+                "minute": "86'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fdc",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fdd",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fde",
+                "minute": "86'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fdf",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fd8",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "bXRB8UIB",
+            "matchDetailsLink": "https://flashscore.com/match/bXRB8UIB/#match-summary"
+          },
+          {
+            "date": "10.01.2017 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fe1",
+                "minute": "36'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fe2",
+                "minute": "66'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fe3",
+                "minute": "36'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fe0",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "hlOlqMg2",
+            "matchDetailsLink": "https://flashscore.com/match/hlOlqMg2/#match-summary"
+          },
+          {
+            "date": "30.11.2016 18:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fe5",
+                "minute": "77'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fe6",
+                "minute": "78'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fe7",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fe8",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fe4",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "prX2kFZB",
+            "matchDetailsLink": "https://flashscore.com/match/prX2kFZB/#match-summary"
+          },
+          {
+            "date": "22.09.2016 20:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48fea",
+                "minute": "32'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48feb",
+                "minute": "43'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fec",
+                "minute": "46'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fed",
+                "minute": "72'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48fee",
+                "minute": "43'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fe9",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "G2ungczm",
+            "matchDetailsLink": "https://flashscore.com/match/G2ungczm/#match-summary"
+          },
+          {
+            "date": "19.09.2016 19:45",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48ff0",
+                "minute": "14'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ff1",
+                "minute": "22'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ff2",
+                "minute": "80'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48ff3",
+                "minute": "80'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48fef",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "fofKUuiM",
+            "matchDetailsLink": "https://flashscore.com/match/fofKUuiM/#match-summary"
+          },
+          {
+            "date": "11.08.2016 19:45",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48ff5",
+                "minute": "7'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ff6",
+                "minute": "22'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ff7",
+                "minute": "54'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ff8",
+                "minute": "69'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ff9",
+                "minute": "84'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ffa",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b48ffb",
+                "minute": "84'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48ffc",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48ff4",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "hW8vwQ3j",
+            "matchDetailsLink": "https://flashscore.com/match/hW8vwQ3j/#match-summary"
+          },
+          {
+            "date": "14.05.2016 18:45",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b48ffe",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b48fff",
+                "minute": "48'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b49000",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b49001",
+                "minute": "41'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b49002",
+                "minute": "90+3'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b48ffd",
+            "team1": "Maccabi Haifa",
+            "team2": "H. Beer Sheva",
+            "title": "Maccabi Haifa - H. Beer Sheva",
+            "fsId": "d8VOJeia",
+            "matchDetailsLink": "https://flashscore.com/match/d8VOJeia/#match-summary"
+          },
+          {
+            "date": "20.04.2016 19:30",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b49004",
+                "minute": "29'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b49005",
+                "minute": "32'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b49006",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b49007",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b49008",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b49009",
+                "minute": "87'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b49003",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "SYx4zbpt",
+            "matchDetailsLink": "https://flashscore.com/match/SYx4zbpt/#match-summary"
+          },
+          {
+            "date": "09.04.2016 19:00",
+            "goals": [
+              {
+                "_id": "5e6688f866773b6a78b4900b",
+                "minute": "79'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e6688f866773b6a78b4900c",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e6688f866773b6a78b4900d",
+                "minute": "84'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e6688f866773b6a78b4900a",
+            "team1": "H. Beer Sheva",
+            "team2": "Maccabi Haifa",
+            "title": "H. Beer Sheva - Maccabi Haifa",
+            "fsId": "tKcJ23G7",
+            "matchDetailsLink": "https://flashscore.com/match/tKcJ23G7/#match-summary"
+          }
+        ],
+        "_id": "5e6688f866773b6a78b48fae",
+        "title": "Maccabi Haifa - H. Beer Sheva",
+        "team1": "Maccabi Haifa",
+        "team2": "H. Beer Sheva",
+        "fsId": "g_1_2sOYxltN",
+        "matchDetailsLink": "https://flashscore.com/match/2sOYxltN/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 21:00",
+        "historyEvents": [
+          {
+            "date": "26.10.2019 15:00",
+            "goals": [
+              {
+                "_id": "5e66890766773b6a78b49010",
+                "minute": "8'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b49011",
+                "minute": "35'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66890766773b6a78b49012",
+                "minute": "35'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66890766773b6a78b4900f",
+            "team1": "Cosenza",
+            "team2": "Chievo",
+            "title": "Cosenza - Chievo",
+            "fsId": "SY6wJCIJ",
+            "matchDetailsLink": "https://flashscore.com/match/SY6wJCIJ/#match-summary"
+          },
+          {
+            "date": "29.04.2001 00:00",
+            "goals": [
+              {
+                "_id": "5e66890766773b6a78b49014",
+                "minute": "78'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b49015",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b49016",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66890766773b6a78b49017",
+                "minute": "80'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b49018",
+                "minute": "85'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66890766773b6a78b49013",
+            "team1": "Chievo",
+            "team2": "Cosenza",
+            "title": "Chievo - Cosenza",
+            "fsId": "tODsov0S",
+            "matchDetailsLink": "https://flashscore.com/match/tODsov0S/#match-summary"
+          },
+          {
+            "date": "04.12.2000 00:00",
+            "goals": [
+              {
+                "_id": "5e66890766773b6a78b4901a",
+                "minute": "14'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b4901b",
+                "minute": "53'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b4901c",
+                "minute": "83'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66890766773b6a78b4901d",
+                "minute": "83'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66890766773b6a78b49019",
+            "team1": "Cosenza",
+            "team2": "Chievo",
+            "title": "Cosenza - Chievo",
+            "fsId": "CGVBPdE8",
+            "matchDetailsLink": "https://flashscore.com/match/CGVBPdE8/#match-summary"
+          },
+          {
+            "date": "28.05.2000 00:00",
+            "goals": [
+              {
+                "_id": "5e66890766773b6a78b4901f",
+                "minute": "24'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66890766773b6a78b49020",
+                "minute": "44'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [
+              {
+                "_id": "5e66890766773b6a78b49021",
+                "minute": "44'",
+                "wasScored": true
+              }
+            ],
+            "_id": "5e66890766773b6a78b4901e",
+            "team1": "Cosenza",
+            "team2": "Chievo",
+            "title": "Cosenza - Chievo",
+            "fsId": "WAgXBzgg",
+            "matchDetailsLink": "https://flashscore.com/match/WAgXBzgg/#match-summary"
+          },
+          {
+            "date": "06.01.2000 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66890766773b6a78b49022",
+            "team1": "Chievo",
+            "team2": "Cosenza",
+            "title": "Chievo - Cosenza",
+            "fsId": "fclzzYMh",
+            "matchDetailsLink": "https://flashscore.com/match/fclzzYMh/#match-summary"
+          },
+          {
+            "date": "14.02.1999 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66890766773b6a78b49023",
+            "team1": "Chievo",
+            "team2": "Cosenza",
+            "title": "Chievo - Cosenza",
+            "fsId": "dYSNcMGL",
+            "matchDetailsLink": "https://flashscore.com/match/dYSNcMGL/#match-summary"
+          },
+          {
+            "date": "20.09.1998 00:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66890766773b6a78b49024",
+            "team1": "Cosenza",
+            "team2": "Chievo",
+            "title": "Cosenza - Chievo",
+            "fsId": "K0PWY5O9",
+            "matchDetailsLink": "https://flashscore.com/match/K0PWY5O9/#match-summary"
+          }
+        ],
+        "_id": "5e66890766773b6a78b4900e",
+        "title": "Chievo - Cosenza",
+        "team1": "Chievo",
+        "team2": "Cosenza",
+        "fsId": "g_1_4lNcOyVu",
+        "matchDetailsLink": "https://flashscore.com/match/4lNcOyVu/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 20:45",
+        "historyEvents": [
+          {
+            "date": "23.10.2019 20:45",
+            "goals": [
+              {
+                "_id": "5e66891066773b6a78b49027",
+                "minute": "12'",
+                "wasScored": true
+              },
+              {
+                "_id": "5e66891066773b6a78b49028",
+                "minute": "61'",
+                "wasScored": true
+              }
+            ],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66891066773b6a78b49026",
+            "team1": "Bari",
+            "team2": "Catanzaro",
+            "title": "Bari - Catanzaro",
+            "fsId": "rZ4tQLpr",
+            "matchDetailsLink": "https://flashscore.com/match/rZ4tQLpr/#match-summary"
+          },
+          {
+            "date": "08.04.2006 16:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66891066773b6a78b49029",
+            "team1": "Bari",
+            "team2": "Catanzaro",
+            "title": "Bari - Catanzaro",
+            "fsId": "dCOkMr5g",
+            "matchDetailsLink": "https://flashscore.com/match/dCOkMr5g/#match-summary"
+          },
+          {
+            "date": "13.11.2005 15:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66891066773b6a78b4902a",
+            "team1": "Catanzaro",
+            "team2": "Bari",
+            "title": "Catanzaro - Bari",
+            "fsId": "SQBpTSt4",
+            "matchDetailsLink": "https://flashscore.com/match/SQBpTSt4/#match-summary"
+          },
+          {
+            "date": "23.01.2005 15:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66891066773b6a78b4902b",
+            "team1": "Bari",
+            "team2": "Catanzaro",
+            "title": "Bari - Catanzaro",
+            "fsId": "6a1mDXp8",
+            "matchDetailsLink": "https://flashscore.com/match/6a1mDXp8/#match-summary"
+          },
+          {
+            "date": "11.09.2004 20:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66891066773b6a78b4902c",
+            "team1": "Catanzaro",
+            "team2": "Bari",
+            "title": "Catanzaro - Bari",
+            "fsId": "QVnnDol6",
+            "matchDetailsLink": "https://flashscore.com/match/QVnnDol6/#match-summary"
+          }
+        ],
+        "_id": "5e66891066773b6a78b49025",
+        "title": "Catanzaro - Bari",
+        "team1": "Catanzaro",
+        "team2": "Bari",
+        "fsId": "g_1_ULBiwNgl",
+        "matchDetailsLink": "https://flashscore.com/match/ULBiwNgl/#h2h;overall"
+      },
+      {
+        "date": "09.03.2020 18:00",
+        "historyEvents": [
+          {
+            "date": "23.12.2019 19:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b4902e",
+            "team1": "ASAC Concorde",
+            "team2": "Police",
+            "title": "ASAC Concorde - Police",
+            "fsId": "xlMtnnCa",
+            "matchDetailsLink": "https://flashscore.com/match/xlMtnnCa/#match-summary"
+          },
+          {
+            "date": "07.04.2019 18:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b4902f",
+            "team1": "ASAC Concorde",
+            "team2": "Police",
+            "title": "ASAC Concorde - Police",
+            "fsId": "pKbTEW6Q",
+            "matchDetailsLink": "https://flashscore.com/match/pKbTEW6Q/#match-summary"
+          },
+          {
+            "date": "16.12.2018 19:50",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49030",
+            "team1": "Police",
+            "team2": "ASAC Concorde",
+            "title": "Police - ASAC Concorde",
+            "fsId": "MiKF6uuI",
+            "matchDetailsLink": "https://flashscore.com/match/MiKF6uuI/#match-summary"
+          },
+          {
+            "date": "02.06.2018 01:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49031",
+            "team1": "ASAC Concorde",
+            "team2": "Police",
+            "title": "ASAC Concorde - Police",
+            "fsId": "Yc4TbrIB",
+            "matchDetailsLink": "https://flashscore.com/match/Yc4TbrIB/#match-summary"
+          },
+          {
+            "date": "19.12.2017 17:30",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49032",
+            "team1": "Police",
+            "team2": "ASAC Concorde",
+            "title": "Police - ASAC Concorde",
+            "fsId": "EXTiu0Vr",
+            "matchDetailsLink": "https://flashscore.com/match/EXTiu0Vr/#match-summary"
+          },
+          {
+            "date": "25.05.2017 19:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49033",
+            "team1": "Police",
+            "team2": "ASAC Concorde",
+            "title": "Police - ASAC Concorde",
+            "fsId": "Odp58ubi",
+            "matchDetailsLink": "https://flashscore.com/match/Odp58ubi/#match-summary"
+          },
+          {
+            "date": "01.01.2017 19:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49034",
+            "team1": "ASAC Concorde",
+            "team2": "Police",
+            "title": "ASAC Concorde - Police",
+            "fsId": "6qAkVTIs",
+            "matchDetailsLink": "https://flashscore.com/match/6qAkVTIs/#match-summary"
+          },
+          {
+            "date": "14.02.2016 16:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49035",
+            "team1": "ASAC Concorde",
+            "team2": "Police",
+            "title": "ASAC Concorde - Police",
+            "fsId": "xdle3Dcr",
+            "matchDetailsLink": "https://flashscore.com/match/xdle3Dcr/#match-summary"
+          },
+          {
+            "date": "26.09.2015 18:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49036",
+            "team1": "Police",
+            "team2": "ASAC Concorde",
+            "title": "Police - ASAC Concorde",
+            "fsId": "t431FPVr",
+            "matchDetailsLink": "https://flashscore.com/match/t431FPVr/#match-summary"
+          },
+          {
+            "date": "15.02.2015 17:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49037",
+            "team1": "Police",
+            "team2": "ASAC Concorde",
+            "title": "Police - ASAC Concorde",
+            "fsId": "KOgz6y8i",
+            "matchDetailsLink": "https://flashscore.com/match/KOgz6y8i/#match-summary"
+          },
+          {
+            "date": "25.10.2014 18:00",
+            "goals": [],
+            "goalsAtRoundsEnd": [],
+            "_id": "5e66892466773b6a78b49038",
+            "team1": "ASAC Concorde",
+            "team2": "Police",
+            "title": "ASAC Concorde - Police",
+            "fsId": "SrOmq9fk",
+            "matchDetailsLink": "https://flashscore.com/match/SrOmq9fk/#match-summary"
+          }
+        ],
+        "_id": "5e66892466773b6a78b4902d",
+        "title": "Police - ASAC Concorde",
+        "team1": "Police",
+        "team2": "ASAC Concorde",
+        "fsId": "g_1_OpzVzzCa",
+        "matchDetailsLink": "https://flashscore.com/match/OpzVzzCa/#h2h;overall"
+      }
+    ],
+    "createdAt": "2020-03-09T18:12:53.472Z",
+    "updatedAt": "2020-03-09T18:21:24.815Z",
+    "__v": 30
+  }
+]
