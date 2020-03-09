@@ -4,6 +4,7 @@ import scrapperRoutes from "./routes/scrapper";
 import analyticsRoutes from "./routes/analytics";
 import { connectToDb } from "./services/db";
 import { initializeAnalysis } from "./services/test";
+import * as cors from "cors";
 const app: express.Express = express();
 const port = 8000;
 
@@ -11,6 +12,7 @@ connectToDb();
 
 // initializeAnalysis(1, 2);
 
+app.use(cors());
 app.use("/api/scrapper", scrapperRoutes);
 app.use("/api/analytics", analyticsRoutes);
 
