@@ -12,13 +12,18 @@ const { Title, Text } = Typography;
 
 function App() {
   const [analytics, setAnalytics] = useState<Analysis | null>(null);
+  const [loading, setLoading] = useState<boolean>(false);
 
   const fetch = async () => {
+    setLoading(true);
+    // http://192.168.0.59:3000/
     try {
-      const response = await axios("http://localhost:8000/api/analytics");
+      const response = await axios("http://192.168.0.59:8000/api/analytics");
       const analytics: Analysis = response.data.data[0];
+      setLoading(false);
       setAnalytics(analytics);
     } catch (e) {
+      setLoading(false);
       console.log(e.message);
     }
   };
@@ -67,7 +72,8 @@ function App() {
   return (
     <Layout>
       <Content style={{ padding: 20 }}>
-        <Title>FlashScore Scrapper</Title>
+        {loading && "loading"}
+        <Title>FlashScore Scrapper | {analytics?.createdAt}</Title>
 
         <Table pagination={{ pageSize: 20 }} dataSource={dataSource()}>
           <Column
@@ -86,23 +92,31 @@ function App() {
                       >
                         {el.title}
                         {el.goalsAtRoundsEnd.length === 0 && (
-                          <span style={{ color: "red" }}>
-                            {" "}
-                            | Brak bramek w 35-45 | 80-90
-                          </span>
+                          <>
+                            <br />
+                            <span style={{ color: "red" }}>
+                              Brak bramek w 35-45 | 80-90
+                            </span>
+                          </>
                         )}
                         {el.goalsAtRoundsEnd.length > 0 && (
                           <>
                             <br />
-                            <Text
-                              strong
-                              style={{ marginRight: 10, color: "#3365df" }}
-                            >
-                              Pierwsza połowa{" "}
-                              {sumGoal(el.goalsAtRoundsEnd).first}
+                            <Text>
+                              1P{" - "}
+                              <strong
+                                style={{ marginRight: 10, color: "#3365df" }}
+                              >
+                                {sumGoal(el.goalsAtRoundsEnd).first}
+                              </strong>
                             </Text>
-                            <Text strong>
-                              Druga połowa {sumGoal(el.goalsAtRoundsEnd).second}
+                            <Text>
+                              2P{" - "}
+                              <strong
+                                style={{ marginRight: 10, color: "#3365df" }}
+                              >
+                                {sumGoal(el.goalsAtRoundsEnd).second}
+                              </strong>
                             </Text>
                           </>
                         )}
@@ -131,14 +145,14 @@ function App() {
               );
             }}
           />
-          <Column
+          {/* <Column
             title="Data"
             render={(_, data: ScheduledEvent) => (
               <Text strong>{data.date}</Text>
             )}
-          />
+          /> */}
 
-          <Column
+          {/* <Column
             title="Link do spotkania"
             render={(_, data: ScheduledEvent) => (
               <a
@@ -149,7 +163,7 @@ function App() {
                 Link
               </a>
             )}
-          />
+          /> */}
         </Table>
       </Content>
     </Layout>
