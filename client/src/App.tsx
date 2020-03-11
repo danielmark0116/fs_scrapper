@@ -134,7 +134,7 @@ function App() {
 
               return (
                 <div>
-                  <Title level={4}>{data.title}</Title>
+                  <Title level={4}>{data.title + " | " + data.date}</Title>
                   <Tree
                     onClick={(_: any, { key }: any) => {
                       window.open(key, "_blank");
