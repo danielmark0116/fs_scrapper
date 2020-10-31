@@ -18,7 +18,12 @@ function App() {
     setLoading(true);
     // http://192.168.0.59:3000/
     try {
-      const response = await axios("http://192.168.0.59:8000/api/analytics");
+      // const response = await axios("http://192.168.0.59:8000/api/analytics");
+      const response = await axios("http://192.168.8.100:8000/api/analytics");
+      // const response = await axios("http://192.168.1.114:8000/api/analytics");
+      // const response = await axios(
+      //   "http://1afc708b5eaf.ngrok.io/api/analytics"
+      // );
       const analytics: Analysis = response.data.data[0];
       setLoading(false);
       setAnalytics(analytics);
@@ -41,12 +46,19 @@ function App() {
       {
         title: "LP",
         dataIndex: "",
-        key: "name"
-      }
+        key: "name",
+      },
     ];
   };
   const dataSource = (): any[] => {
-    return analytics?.scheduledEvents.map(el => ({ ...el, key: el._id })) ?? [];
+    // return (
+    //   analytics?.scheduledEvents.map((el) => ({ ...el, key: el._id })) ?? []
+    // );
+    return (
+      analytics?.scheduledEvents
+        .map((el) => ({ ...el, key: el._id }))
+        .filter((el) => el.historyEvents.length) ?? []
+    );
   };
 
   const sumGoal = (data: Goal[]) => {
@@ -83,7 +95,7 @@ function App() {
                 {
                   title: `History events (${data.historyEvents.length})`,
                   key: "0-0",
-                  children: data.historyEvents.map(el => ({
+                  children: data.historyEvents.map((el) => ({
                     title: (
                       <a
                         href={el.matchDetailsLink}
@@ -124,12 +136,12 @@ function App() {
                     ),
                     key: el.matchDetailsLink,
                     disabled: false,
-                    children: el.goalsAtRoundsEnd.map(el => ({
+                    children: el.goalsAtRoundsEnd.map((el) => ({
                       title: el.minute,
-                      key: `${el._id + el.minute}`
-                    }))
-                  }))
-                }
+                      key: `${el._id + el.minute}`,
+                    })),
+                  })),
+                },
               ];
 
               return (

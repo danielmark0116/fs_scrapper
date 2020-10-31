@@ -36,11 +36,13 @@ exports.initializeAnalysis = async (eventsToBePlayed = 2, historyQuantity = 4) =
     try {
         const links = await exports.sEventsLinks(eventsToBePlayed);
         console.log(chalk.blue("Fetched links for scheduled matches"));
+        console.log(links.length);
         await analise(links, historyQuantity);
         console.log(chalk.green("Analysis DONE"));
     }
     catch (e) {
         console.log("error from initializing Analysis");
+        console.log(e.message);
     }
 };
 const fetchHistoryData = async (ids, browser) => {
@@ -57,17 +59,20 @@ const fetchHistoryData = async (ids, browser) => {
             const page = await browser.newPage();
             page.setDefaultTimeout(0);
             console.log("mathc id: " + matchId);
-            page.goto("https://flashscore.com/match/" + matchId + "#match-summary");
+            await page
+                .goto("https://flashscore.com/match/" + matchId + "#match-summary")
+                .then(() => console.log("went to match summary page"))
+                .catch((e) => console.log("Could not visit match summary page + ", e));
             await page.waitForSelector("#a-match-head-2-head");
             await page.waitForSelector(".detailMS", {
                 visible: true,
-                timeout: 0
+                timeout: 0,
             });
             const events = await page.$$eval(".detailMS__incidentRow", (all) => all.map((event) => {
                 if (event.getAttribute("class").includes("--empty")) {
                     return {
                         minute: "0",
-                        wasScored: null
+                        wasScored: null,
                     };
                 }
                 else {
@@ -83,7 +88,7 @@ const fetchHistoryData = async (ids, browser) => {
                     }
                     return {
                         minute: event.firstChild.innerHTML,
-                        wasScored
+                        wasScored,
                     };
                 }
             }));
@@ -109,7 +114,7 @@ const fetchHistoryData = async (ids, browser) => {
                 team2: `${team2 || ""}`,
                 title,
                 fsId,
-                matchDetailsLink
+                matchDetailsLink,
             });
             await page.close();
             if (index === lastItem) {
@@ -125,7 +130,7 @@ const fetchHistoryData = async (ids, browser) => {
 const analise = async (SELinks, historyQuantity) => {
     try {
         const newAnalysis = new analysis_model_1.Analysis({
-            scheduledEvents: []
+            scheduledEvents: [],
         });
         const analysisId = newAnalysis._id;
         await newAnalysis.save();
@@ -150,10 +155,18 @@ const analise = async (SELinks, historyQuantity) => {
                 .length;
             let historyDataIds = [];
             if (h2hQuantity > 0) {
-                await page.waitForSelector("table.h2h_mutual tr.highlight", {
+                // let awaitOutput;
+                await page
+                    .waitForSelector("table.h2h_mutual tr.highlight", {
                     visible: true,
                     hidden: false,
-                    timeout: 10000
+                    timeout: 10000,
+                })
+                    .then((page) => {
+                    console.log(chalk.blue("found table.h2h_mutual tr.highlight"));
+                })
+                    .catch(() => {
+                    console.log(chalk.red("Did not found table.h2h_mutual tr.highlight"));
                 });
                 const historyDataIdsWithDuplicates = await page.$$eval("table.h2h_mutual tr.highlight", (links) => links.map((link) => link
                     .getAttribute("onclick")
@@ -174,7 +187,7 @@ const analise = async (SELinks, historyQuantity) => {
                 team2: `${team2Name}`,
                 fsId: scheduledEventId,
                 matchDetailsLink: scheduledEventLink,
-                historyEvents: allHistoryDataForOneScheduledEvent
+                historyEvents: allHistoryDataForOneScheduledEvent,
             };
             const analysisToBeUpdated = await analysis_model_1.Analysis.findById(analysisId);
             analysisToBeUpdated.scheduledEvents.push(scheduledEventFinalData);
@@ -190,7 +203,9 @@ const analise = async (SELinks, historyQuantity) => {
     catch (e) {
         console.log(chalk.red("Error form ANALISE"));
         console.log(e.message);
-        return false;
+        console.log("but going on, just skipping this one");
+        // return false;
+        return true;
     }
 };
 // GETTINGS SCHEDULED EVENTS
@@ -199,7 +214,7 @@ exports.sEventsLinks = async (noOfScheduledEvents = 4) => {
         const outputLinks = [];
         const browser = await pt.launch();
         const page = await browser.newPage();
-        page.setDefaultNavigationTimeout(0);
+        page.setDefaultNavigationTimeout(20000);
         browser.on("targetdestroyed", async (pt) => {
             const pagesCount = (await browser.pages()).length;
             if (pagesCount === 1) {
@@ -210,21 +225,32 @@ exports.sEventsLinks = async (noOfScheduledEvents = 4) => {
             console.log(chalk.green("Closed Browser for fetching SCHEDULED EVENTS"));
         });
         await page.goto("https://flashscore.com");
+        console.log("awaotng for selecotrs");
+        await page.waitForSelector(".event__match.event__match--scheduled");
+        console.log("have selectors");
         const links = await page.$$(".event__match.event__match--scheduled");
+        console.log(links.length);
         for (let index in links) {
             const i = parseInt(index);
-            const lastItem = noOfScheduledEvents - 1;
+            const lastItem = noOfScheduledEvents - 1 > links.length
+                ? links.length - 1
+                : noOfScheduledEvents - 1;
+            console.log(index);
+            console.log(lastItem);
             if (i < noOfScheduledEvents) {
                 const url = links[index];
                 const fullId = await (await url.getProperty("id")).jsonValue();
                 const finalId = `${fullId}`;
                 const scheduledEventId = finalId.replace("g_1_", "");
                 const sEventLink = "https://flashscore.com/match/" + scheduledEventId + "/#h2h;overall";
+                // console.log(outputLinks);
+                // console.log(sEventLink);
                 outputLinks.push({
                     link: sEventLink,
-                    fsId: finalId
+                    fsId: scheduledEventId,
                 });
                 if (i === lastItem) {
+                    console.log("last item");
                     await page.close();
                     return outputLinks;
                 }

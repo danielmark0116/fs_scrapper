@@ -4,13 +4,14 @@ const router: express.Router = express.Router();
 
 router.get("/", async (req, res) => {
   try {
-    initializeAnalysis(100, 20);
+    console.log("initializign analysis");
+    initializeAnalysis(400, 20);
     res.json({
-      msg: "Scrapper route"
+      msg: "Scrapper route",
     });
   } catch (e) {
     res.status(500).json({
-      msg: "Error"
+      msg: "Error",
     });
   }
 });
